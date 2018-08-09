@@ -3,6 +3,7 @@ background-color: lightblue;
 }
 #section1 {
     width: 100%;
+    vertical-align: top;
 }
 #left {
   margin-right: 700px;
