@@ -1,14 +1,17 @@
 body {
 background-color: lightblue;
 }
-div {
+#left {
+  margin-right: 700px;
   border: 2px solid black;
   background-color: violet;
   text-align: center;
-}
-#left {
-  margin-right: 700px;
+  float: left;
 }
 #right {
   margin-left: 700px;
+  border: 2px solid black;
+  background-color: violet;
+  text-align: center;
+  float: right;
 }
