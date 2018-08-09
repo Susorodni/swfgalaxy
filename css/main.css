@@ -3,7 +3,6 @@ background-color: lightblue;
 }
 #section1 {
     flex-direction: row;
-    width: 500px;
     border: 1px black solid;
 }
 #left {
