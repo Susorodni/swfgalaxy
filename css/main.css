@@ -1,6 +1,10 @@
 body {
 background-color: lightblue;
 }
+#section1 {
+  width: 100%;
+  overflow: hidden;
+}
 #left {
   margin-right: 700px;
   border: 2px solid black;
