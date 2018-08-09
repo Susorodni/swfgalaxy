@@ -6,7 +6,6 @@ background-color: lightblue;
     flex-direction: row;
     width: 500px;
     border: 1px black solid;
-    margin: 0 auto;
 }
 #left {
   margin-right: 700px;
