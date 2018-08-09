@@ -6,5 +6,5 @@ div {
   background-color: violet;
 }
 #left {
-  outline-offset: -150px;
+  margin: 150px;
 }
