@@ -4,6 +4,7 @@ background-color: lightblue;
 div {
   border: 2px solid black;
   background-color: violet;
+  align: center;
 }
 #left {
   margin-right: 150px;
