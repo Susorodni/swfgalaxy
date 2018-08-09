@@ -1,21 +1,18 @@
 body {
 background-color: lightblue;
 }
+#section1 {
+    width: 100%;
+}
 #left {
   margin-right: 700px;
   border: 2px solid black;
   background-color: violet;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  border: 1px black solid;
 }
 #right {
   margin-left: 800px;
   border: 2px solid black;
   background-color: violet;
   text-align: center;
-  display: flex;
-  flex-direction: row;
-  border: 1px black solid;
 }
