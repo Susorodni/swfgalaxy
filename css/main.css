@@ -1,9 +1,22 @@
 body {
 background-color: lightblue;
 }
-#section1 {
-    width: 100%;
-    vertical-align: top;
+div {
+  // These styles are for aesthetics only.
+  font-size: 18px
+  line-height: 1.3em
+  vertical-align: top
+  margin-bottom: 1em
+  border-radius: 0.5em
+  padding: 1em
+  // This insures everything up to the border
+  // is included in the width
+  box-sizing: border-box
+  // The default width of my divs
+  width: 45%
+}
+.ib {
+    display: inline-block;
 }
 #left {
   margin-right: 700px;
