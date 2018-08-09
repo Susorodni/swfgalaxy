@@ -10,7 +10,7 @@
       <p>BTD5</p>
       <img src="images/btd5.jpg">
       <br>
-      <button type="button" onclick="location.href="neonk.github.io/swfrunner/btd5.html">Play</button>
+      <button type="button" id="btd5">Play</button>
     </div>
     <ul>
       <li><a href="btd5.html">BTD5</a></li>
@@ -36,4 +36,9 @@
   <footer>
     *Note: These games don't save your progress automatically. You have to save them manually by clicking the "Save Backup"<br>after you finish a day.
   </footer>
+  <script type="text/javascript">
+    document.getElementById("btd5").onclick = function () {
+        location.href = "neonk.github.io/swfrunner/btd5.html";
+    };
+</script>
 </html>
