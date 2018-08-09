@@ -1,11 +1,6 @@
 body {
 background-color: lightblue;
 }
-#section1 {
-    display: flex;
-    flex-direction: row;
-    border: 1px black solid;
-}
 #left {
   margin-right: 700px;
   border: 2px solid black;
