@@ -7,5 +7,6 @@ div {
   text-align: center;
 }
 #left {
-  margin-right: 150px;
+  margin-right: 500px;
+  marign-left: 100px;
 }
