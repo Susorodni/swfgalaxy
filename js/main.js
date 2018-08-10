@@ -47,7 +47,7 @@ document.getElementById("tanktrouble").onclick = function () {
         location.href = "tanktrouble.html";
 };
 document.getElementById("legendofzelda").onclick = function () {
-        location.href = "https://neonk.github.io/zelda/www/index.html";
+        window.location.replace("https://neonk.github.io/zelda/www/index.html");
 };
 document.getElementById("zombo").onclick = function () {
         location.href = "zombocalypse.html";
