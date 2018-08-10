@@ -21,7 +21,7 @@ background-color: lightblue;
   background-color: violet;
   text-align: center;
   font-family: sans-serif;
-  float: center; 
+  display: inline-block; 
 }
 #right {
   width: 300px;
