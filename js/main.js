@@ -46,9 +46,6 @@ document.getElementById("swordsandsandals2").onclick = function () {
 document.getElementById("tanktrouble").onclick = function () {
         location.href = "tanktrouble.html";
 };
-document.getElementById("legendofzelda").onclick = function () {
-        window.open("https://neonk.github.io/zelda/www/index.html");
-};
 document.getElementById("zombo").onclick = function () {
         location.href = "zombocalypse.html";
 };
