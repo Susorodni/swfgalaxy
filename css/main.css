@@ -1,20 +1,15 @@
 body {
 background-color: lightblue;
 }
-#wrap {
-  width 900px;
-  height 300px;
 #left {
   border: 2px solid black;
   background-color: violet;
   text-align: center;
-  float: left;
-  
+  float: left; 
 }
 #right {
   border: 2px solid black;
   background-color: violet;
   text-align: center;
-  display: inline;
   float: right;
 }
