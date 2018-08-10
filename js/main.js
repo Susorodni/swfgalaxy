@@ -50,5 +50,5 @@ document.getElementById("legendofzelda").onclick = function () {
         location.href = "https://neonk.github.io/zelda/www/index.html";
 };
 document.getElementById("zombo").onclick = function () {
-        location.href = "zombopocolypse.html";
+        location.href = "zombocalypse.html";
 };
