@@ -43,3 +43,12 @@ document.getElementById("supersmashflash").onclick = function () {
 document.getElementById("swordsandsandals2").onclick = function () {
         location.href = "swordsandsandals2.html";
 };
+document.getElementById("tanktrouble").onclick = function () {
+        location.href = "tanktrouble.html";
+};
+document.getElementById("legendofzelda").onclick = function () {
+        location.href = "https://neonk.github.io/zelda/www/index.html";
+};
+document.getElementById("zombo").onclick = function () {
+        location.href = "zombopocolypse.html";
+};
