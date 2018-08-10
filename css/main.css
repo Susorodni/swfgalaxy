@@ -2,11 +2,9 @@ body {
 background-color: lightblue;
 }
 #wrap {
-  width 300px;
-  height 900px;
+  width 900px;
+  height 300px;
 #left {
-  width: 300px;
-  height: 300px;
   border: 2px solid black;
   background-color: violet;
   text-align: center;
@@ -14,8 +12,6 @@ background-color: lightblue;
   
 }
 #right {
-  width: 300px;
-  height: 300px;
   border: 2px solid black;
   background-color: violet;
   text-align: center;
