@@ -34,7 +34,7 @@ document.getElementById("strikeforceheroes").onclick = function () {
 document.getElementById("strikeforceheroes2").onclick = function () {
         location.href = "strikeforceheroes2.html";
 };
-document.getElementById("shbc").onclick = function () {
+document.getElementById("sportsheads").onclick = function () {
         location.href = "sportsheadsbasketballchampionship.html";
 };
 document.getElementById("supersmashflash").onclick = function () {
