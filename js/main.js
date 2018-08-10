@@ -49,3 +49,6 @@ document.getElementById("tanktrouble").onclick = function () {
 document.getElementById("zombo").onclick = function () {
         location.href = "zombocalypse.html";
 };
+document.getElementById("geodash").onclick = function () {
+        location.href = "geometrydash.html";
+};
