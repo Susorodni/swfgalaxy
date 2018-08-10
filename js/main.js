@@ -7,6 +7,9 @@ document.getElementById("ducklife4").onclick = function () {
 document.getElementById("flappybird").onclick = function () {
         location.href = "flappybird.html";
     };
+document.getElementById("geodash").onclick = function () {
+        location.href = "geometrydash.html";
+};
 document.getElementById("giveup2").onclick = function () {
         location.href = "giveup2.html";
     };
@@ -48,7 +51,4 @@ document.getElementById("tanktrouble").onclick = function () {
 };
 document.getElementById("zombo").onclick = function () {
         location.href = "zombocalypse.html";
-};
-document.getElementById("geodash").onclick = function () {
-        location.href = "geometrydash.html";
 };
