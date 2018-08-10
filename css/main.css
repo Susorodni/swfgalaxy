@@ -5,11 +5,11 @@ background-color: lightblue;
   border: 2px solid black;
   background-color: violet;
   text-align: center;
-  float: left
+  display: inline;
 }
 #right {
   border: 2px solid black;
   background-color: violet;
   text-align: center;
-  float: right;
+  display: inline;
 }
