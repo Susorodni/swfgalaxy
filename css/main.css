@@ -1,15 +1,24 @@
 body {
 background-color: lightblue;
 }
+#wrap {
+  width 900px;
+  height 300px;
 #left {
+  width: 300px;
+  height: 300px;
   border: 2px solid black;
   background-color: violet;
   text-align: center;
-  display: inline;
+  float: left;
+  
 }
 #right {
+  width: 300px;
+  height: 300px;
   border: 2px solid black;
   background-color: violet;
   text-align: center;
   display: inline;
+  float: right;
 }
