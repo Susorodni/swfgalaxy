@@ -25,3 +25,12 @@ document.getElementById("papasbakeria").onclick = function () {
 document.getElementById("papasdonuteria").onclick = function () {
         location.href = "papasdonuteria.html";
     };
+document.getElementById("pokemontowerdefense").onclick = function () {
+        location.href = "pokemontowerdefense.html";
+};
+document.getElementById("strikeforceheroes").onclick = function () {
+        location.href = "strikeforceheroes.html";
+};
+document.getElementById("strikeforceheroes2").onclick = function () {
+        location.href = "strikeforceheroes2.html";
+};
