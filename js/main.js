@@ -1,4 +1,4 @@
-document.getElementById("btd5").onclick = function () {
+function btd5() {
         location.href = "btd5.html";
     };
 document.getElementById("ducklife4").onclick = function () {
