@@ -9,7 +9,7 @@ img {
   width: 1200px;
   height: 300px;
 }
-#left {
+.left {
   width: 300px;
   height: 300px;
   border: 2px solid black;
@@ -18,7 +18,7 @@ img {
   font-family: sans-serif;
   float: left; 
 }
-#center {
+.center {
   width: 300px;
   height: 300px;
   border: 2px solid black;
@@ -27,7 +27,7 @@ img {
   font-family: sans-serif;
   display: inline-block; 
 }
-#right {
+.right {
   width: 300px;
   height: 300px;
   border: 2px solid black;
