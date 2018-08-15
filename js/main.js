@@ -1,7 +1,7 @@
-function btd5() {
+document.getElementById("btd5").onclick = function {
         location.href = "btd5.html";
     };
-function ducklife4() {
+document.getElementById("ducklife4").onclick = function {
         location.href = "ducklife4.html";
     };
 document.getElementById("flappybird").onclick = function () {
