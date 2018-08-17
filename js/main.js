@@ -5,7 +5,7 @@ document.getElementById("ducklife4").onclick = function () {
         location.href = "ducklife4.html";
 };
 document.getElementById("flappybird").onclick = function () {
-        location.href = "flappybird.ht
+        location.href = "flappybird.html";
 };
 document.getElementById("geodash").onclick = function () {
         location.href = "geometrydash.html";
