@@ -1,11 +1,11 @@
-document.getElementById("btd5").onclick = function {
+document.getElementById("btd5").onclick = function () {
         location.href = "btd5.html";
 };
-document.getElementById("ducklife4").onclick = function {
+document.getElementById("ducklife4").onclick = function () {
         location.href = "ducklife4.html";
 };
 document.getElementById("flappybird").onclick = function () {
-        location.href = "flappybird.html";
+        location.href = "flappybird.ht
 };
 document.getElementById("geodash").onclick = function () {
         location.href = "geometrydash.html";
