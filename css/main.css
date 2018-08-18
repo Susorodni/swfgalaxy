@@ -41,3 +41,7 @@ aside {
   width: 150px;
   float: right;
 }
+#sidenotes {
+  background-color: violet;
+  border: 2px solid black;
+}
