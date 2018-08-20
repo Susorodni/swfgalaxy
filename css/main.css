@@ -36,10 +36,8 @@ img {
   font-family: sans-serif;
   float: right;
 }
-aside {
+header {
   font-family: sans-serif;
-  width: 300px;
-  float: right;
 }
 #sidenotes {
   background-color: violet;
