@@ -47,7 +47,7 @@ header {
 #sidenotes2 {
   background-color: violet;
   border: 2px solid black;
-  display: right;
+  float: right;
 }
 #title {
   float: left;
