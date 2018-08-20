@@ -39,7 +39,13 @@ img {
 header {
   font-family: sans-serif;
 }
-#sidenotes {
+#sidenotes1 {
   background-color: violet;
   border: 2px solid black;
+  float: left;
+}
+#sidenotes2 {
+  background-color: violet;
+  border: 2px solid black;
+  float: right;
 }
