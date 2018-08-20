@@ -49,3 +49,6 @@ header {
   border: 2px solid black;
   display: right;
 }
+#title {
+  float: left;
+}
