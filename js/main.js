@@ -1,6 +1,6 @@
 function loadBoxes () {
     document.getElementById("t1").innerHTML = "BTD5";
-    document.getElementById("i1").src = "btd5.jpg";
+    document.getElementById("i1").src = "/images/btd5.jpg";
     document.getElementById("b1").onclick = function () { btd5(); };
 }
 window.onload = loadBoxes
