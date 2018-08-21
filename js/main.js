@@ -23,7 +23,11 @@ function loadBoxes () {
     document.getElementById("t6").innerHTML = "Happy Wheels";
     document.getElementById("i6").src = "images/happywheels.jpeg";
     document.getElementById("b6").onclick = function () { happywheels(); };
-    // Box 7
+    // Jacksmith
+    document.getElementById("t7").innerHTML = "Jacksmith";
+    document.getElementById("i7").src = "images/jacksmith.jpeg";
+    document.getElementById("b7").onclick = function () { jacksmith(); };
+    // Box 8
 }
 window.onload = loadBoxes
 function btd5 () {
@@ -44,7 +48,7 @@ function giveup2 () {
 function happywheels () {
         location.href = "happywheels.html";
 };
-document.getElementById("jacksmith").onclick = function () {
+function jacksmith () {
         location.href = "jacksmith.html";
 };
 document.getElementById("learntofly3").onclick = function () {
