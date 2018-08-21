@@ -1,25 +1,29 @@
 function loadBoxes () {
-    // Box 1 
+    // BTD5
     document.getElementById("t1").innerHTML = "BTD5";
     document.getElementById("i1").src = "images/btd5.jpg";
     document.getElementById("b1").onclick = function () { btd5(); };
-    // Box 2
+    // Duck Life 4
     document.getElementById("t2").innerHTML = "Duck Life 4";
     document.getElementById("i2").src = "images/ducklife-4.jpeg";
     document.getElementById("b2").onclick = function () { ducklife4(); };
-    // Box 3
+    // Flappy Bird
     document.getElementById("t3").innerHTML = "Flappy Bird";
     document.getElementById("i3").src = "images/flappybird.jpg";
     document.getElementById("b3").onclick = function () { flappybird(); };
-    // Box 4
+    // Geometry Dash
     document.getElementById("t4").innerHTML = "Geometry Dash";
     document.getElementById("i4").src = "images/geometrydash.jpg";
     document.getElementById("b4").onclick = function () { geodash(); };
-    // Box 5
+    // Give Up 2
     document.getElementById("t5").innerHTML = "Give Up 2";
     document.getElementById("i5").src = "images/giveup2.jpeg";
     document.getElementById("b5").onclick = function () { giveup2(); };
-    // Box 6
+    // Happy Wheels
+    document.getElementById("t6").innerHTML = "Happy Wheels";
+    document.getElementById("i6").src = "images/happywheels.jpeg";
+    document.getElementById("b6").onclick = function () { happywheels(); };
+    // Box 7
 }
 window.onload = loadBoxes
 function btd5 () {
@@ -37,7 +41,7 @@ function geodash () {
 function giveup2 () {
         location.href = "giveup2.html";
 };
-document.getElementById("happywheels").onclick = function () {
+function happywheels () {
         location.href = "happywheels.html";
 };
 document.getElementById("jacksmith").onclick = function () {
