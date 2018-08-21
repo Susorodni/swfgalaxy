@@ -41,7 +41,7 @@ header {
 }
 #sidenotes1 {
   background-color: red;
-  display: inline-block;
+  float: left;
   text-align: center;
   width: 200px;
   height: 200px;
@@ -54,7 +54,7 @@ header {
   height: 200px
 }
 #title {
-  float: left;
+  display: inline-block;
 }
 .table {
   content: "";
