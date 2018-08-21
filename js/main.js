@@ -27,7 +27,11 @@ function loadBoxes () {
     document.getElementById("t7").innerHTML = "Jacksmith";
     document.getElementById("i7").src = "images/jacksmith.jpeg";
     document.getElementById("b7").onclick = function () { jacksmith(); };
-    // Box 8
+    // Learn to Fly 3
+    document.getElementById("t8").innerHTML = "Learn to Fly 3";
+    document.getElementById("i8").src = "images/learntofly3.jpeg";
+    document.getElementById("b8").onclick = function () { learntofly3(); };
+    // Box 9
 }
 window.onload = loadBoxes
 function btd5 () {
@@ -51,7 +55,7 @@ function happywheels () {
 function jacksmith () {
         location.href = "jacksmith.html";
 };
-document.getElementById("learntofly3").onclick = function () {
+function learntofly3 () {
         location.href = "learntofly3.html";
 };
 document.getElementById("papasbakeria").onclick = function () {
