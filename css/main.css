@@ -40,13 +40,11 @@ header {
   font-family: sans-serif;
 }
 #sidenotes1 {
-  background-color: violet;
-  border: 2px solid black;
+  background-color: red;
   display: inline-block;
 }
 #sidenotes2 {
-  background-color: violet;
-  border: 2px solid black;
+  background-color: blue;
   float: right;
 }
 #title {
@@ -56,4 +54,5 @@ header {
   content: "";
   display: table;
   clear: both;
+  border: 2px solid black;
 }
