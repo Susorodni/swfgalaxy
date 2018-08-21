@@ -42,10 +42,16 @@ header {
 #sidenotes1 {
   background-color: red;
   display: inline-block;
+  text-align: center;
+  width: 150px;
+  height: 150px;
 }
 #sidenotes2 {
   background-color: blue;
   float: right;
+  text-align: center;
+  width: 150px;
+  height: 150px
 }
 #title {
   float: left;
@@ -54,5 +60,4 @@ header {
   content: "";
   display: table;
   clear: both;
-  border: 2px solid black;
 }
