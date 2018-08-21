@@ -4,12 +4,16 @@ function loadBoxes () {
     document.getElementById("i1").src = "images/btd5.jpg";
     document.getElementById("b1").onclick = function () { btd5(); };
     // Box 2
+    document.getElementById("t2").innerHTML = "Duck Life 4";
+    document.getElementById("i2").src = "images/ducklife-4.jpeg";
+    document.getElementById("b2").onclick = function () { ducklife4(); };
+    // Box 3
 }
 window.onload = loadBoxes
 function btd5 () {
         location.href = "btd5.html";
 };
-document.getElementById("ducklife4").onclick = function () {
+function ducklife4 () {
         location.href = "ducklife4.html";
 };
 document.getElementById("flappybird").onclick = function () {
