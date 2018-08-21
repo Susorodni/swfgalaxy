@@ -43,15 +43,15 @@ header {
   background-color: red;
   display: inline-block;
   text-align: center;
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
 }
 #sidenotes2 {
   background-color: blue;
   float: right;
   text-align: center;
-  width: 150px;
-  height: 150px
+  width: 200px;
+  height: 200px
 }
 #title {
   float: left;
