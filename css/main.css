@@ -43,13 +43,11 @@ header {
   background-color: violet;
   border: 2px solid black;
   display: inline-block;
-  width: 50%;
 }
 #sidenotes2 {
   background-color: violet;
   border: 2px solid black;
   float: right;
-  width: 50%
 }
 #title {
   float: left;
