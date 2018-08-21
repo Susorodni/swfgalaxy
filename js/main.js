@@ -8,6 +8,10 @@ function loadBoxes () {
     document.getElementById("i2").src = "images/ducklife-4.jpeg";
     document.getElementById("b2").onclick = function () { ducklife4(); };
     // Box 3
+    document.getElementById("t3").innerHTML = "Flappy Bird";
+    document.getElementById("i3").src = "images/flappybird.jpg";
+    document.getElementById("b3").onclick = function () { flappybird(); };
+    // Box 4
 }
 window.onload = loadBoxes
 function btd5 () {
@@ -16,7 +20,7 @@ function btd5 () {
 function ducklife4 () {
         location.href = "ducklife4.html";
 };
-document.getElementById("flappybird").onclick = function () {
+function flappybird () {
         location.href = "flappybird.html";
 };
 document.getElementById("geodash").onclick = function () {
