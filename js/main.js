@@ -12,6 +12,10 @@ function loadBoxes () {
     document.getElementById("i3").src = "images/flappybird.jpg";
     document.getElementById("b3").onclick = function () { flappybird(); };
     // Box 4
+    document.getElementById("t4").innerHTML = "Geometry Dash";
+    document.getElementById("i4").src = "images/geometrydash.jpg";
+    document.getElementById("b4").onclick = function () { geodash(); };
+    // Box 5
 }
 window.onload = loadBoxes
 function btd5 () {
@@ -23,7 +27,7 @@ function ducklife4 () {
 function flappybird () {
         location.href = "flappybird.html";
 };
-document.getElementById("geodash").onclick = function () {
+function geodash () {
         location.href = "geometrydash.html";
 };
 document.getElementById("giveup2").onclick = function () {
