@@ -1,4 +1,10 @@
-document.getElementById("btd5").onclick = function () {
+function loadBoxes () {
+    document.getElementById("t1").innerHTML = "BTD5";
+    document.getElementById("i1").src = "btd5.jpeg";
+    document.getElementById("b1").onclick = function () { btd5(); };
+}
+window.onload = loadBoxes
+function btd5 () {
         location.href = "btd5.html";
 };
 document.getElementById("ducklife4").onclick = function () {
