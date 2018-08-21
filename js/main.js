@@ -16,6 +16,10 @@ function loadBoxes () {
     document.getElementById("i4").src = "images/geometrydash.jpg";
     document.getElementById("b4").onclick = function () { geodash(); };
     // Box 5
+    document.getElementById("t5").innerHTML = "Give Up 2";
+    document.getElementById("i5").src = "images/giveup2.jpeg";
+    document.getElementById("b5").onclick = function () { giveup2(); };
+    // Box 6
 }
 window.onload = loadBoxes
 function btd5 () {
@@ -30,7 +34,7 @@ function flappybird () {
 function geodash () {
         location.href = "geometrydash.html";
 };
-document.getElementById("giveup2").onclick = function () {
+function giveup2 () {
         location.href = "giveup2.html";
 };
 document.getElementById("happywheels").onclick = function () {
