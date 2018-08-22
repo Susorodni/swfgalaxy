@@ -3,6 +3,8 @@ function loadBoxes () {
     document.getElementById("t1").innerHTML = "BTD5";
     document.getElementById("i1").src = "images/btd5.jpg";
     document.getElementById("b1").onclick = function () { btd5(); };
+    // Chibi Knight
+    document.getElementById("n3").onclick = function () { chibiknight(); };
     // Duck Life 4
     document.getElementById("t2").innerHTML = "Duck Life 4";
     document.getElementById("i2").src = "images/ducklife-4.jpeg";
@@ -63,8 +65,6 @@ function loadBoxes () {
     document.getElementById("t15").innerHTML = "Super Smash Flash";
     document.getElementById("i15").src = "images/supersmashflash.jpeg";
     document.getElementById("b15").onclick = function () { supersmashflash(); };
-    // Super Smash Flash 2
-    document.getElementById("n3").onclick = function () { supersmashflash2(); };
     // Swords and Sandals 2
     document.getElementById("t16").innerHTML = "Swords and Sandals 2";
     document.getElementById("i16").src = "images/swordsandsandals2.jpg";
@@ -143,6 +143,6 @@ function impossiblequiz() {
 function run3() {
         location.href = "run3.html"
 }
-function supersmashflash2() {
-        location.href = "supersmashflash2.html"
+function chibiknight() {
+        location.href = "chibiknight.html"
 }
