@@ -57,7 +57,16 @@ function impossiblequiz() {
 };
 function run3() {
         location.href = "run3.html"
-}
+};
 function chibiknight() {
         location.href = "chibiknight.html"
+};
+function papasscooperia() {
+        location.href = "papasscooperia.html"
+};
+function strikeforceheroes3() {
+        location.href = "strikeforceheroes3.html"
+}
+function superfighters() {
+        location.href = "superfighters.html"
 }
