@@ -70,3 +70,9 @@ function strikeforceheroes3() {
 function superfighters() {
         location.href = "superfighters.html"
 }
+function getontop() {
+        location.href = "getontop.html"
+}
+function gunblood() {
+        location.href = "gunblood.html"
+}

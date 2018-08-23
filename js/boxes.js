@@ -21,7 +21,7 @@ function loadBoxes () {
     document.getElementById("b5").onclick = function () { geodash(); };
     // Get on Top
     document.getElementById("nt1").innerHTML = "Get on Top";
-    documnet.getElementById("ni1").src = "images/getontop.jpeg";
+    document.getElementById("ni1").src = "images/getontop.jpeg";
     document.getElementById("nb1").onclick = function () { getontop(); };
     // Give Up 2
     document.getElementById("t6").innerHTML = "Give Up 2";
@@ -57,9 +57,9 @@ function loadBoxes () {
     document.getElementById("i12").src = "images/papasdonuteria.jpeg";
     document.getElementById("b12").onclick = function () { papasdonuteria(); };
     // Papa's Scooperia
-    document.getElementById("n13").innerHTML = "Papa's Scooperia";
-    document.getElementById("n13").src = "images/papasscooperia.jpg";
-    document.getElementById("n13").onclick = function () { papasscooperia(); };
+    document.getElementById("t13").innerHTML = "Papa's Scooperia";
+    document.getElementById("i13").src = "images/papasscooperia.jpg";
+    document.getElementById("b13").onclick = function () { papasscooperia(); };
     // Pokemon Tower Defense
     document.getElementById("t14").innerHTML = "Pokemon Tower Defense";
     document.getElementById("i14").src = "images/pokemontowerdefense.jpeg";
@@ -109,4 +109,4 @@ function loadBoxes () {
     document.getElementById("i24").src = "images/zombo.jpeg";
     document.getElementById("b24").onclick = function () { zombocalypse(); };
 }
-window.onload = loadBoxes
+window.onload = loadBoxes;
