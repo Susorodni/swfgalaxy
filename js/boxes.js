@@ -27,10 +27,6 @@ function loadBoxes () {
     document.getElementById("t6").innerHTML = "Give Up 2";
     document.getElementById("i6").src = "images/giveup2.jpeg";
     document.getElementById("b6").onclick = function () { giveup2(); };
-    // Gun Blood
-    document.getElementById("nt2").innerHTML = "Gun Blood";
-    document.getElementById("ni2").src = "images/gunblood.jpeg";
-    document.getElementById("nb2").onclick = function () { gunblood(); };
     // Happy Wheels
     document.getElementById("t7").innerHTML = "Happy Wheels";
     document.getElementById("i7").src = "images/happywheels.jpeg";
@@ -64,6 +60,10 @@ function loadBoxes () {
     document.getElementById("t14").innerHTML = "Pokemon Tower Defense";
     document.getElementById("i14").src = "images/pokemontowerdefense.jpeg";
     document.getElementById("b14").onclick = function () { pokemontowerdefense(); };
+    // Raze 3
+    document.getElementById("nt2").innerHTML = "Raze 3";
+    document.getElementById("ni2").src = "images/raze3.png";
+    document.getElementById("nb2").onclick = function () { raze3(); };
     // Run 3
     document.getElementById("nt3").innerHTML = "Run 3";
     document.getElementById("ni3").src = "images/run3.jpg";

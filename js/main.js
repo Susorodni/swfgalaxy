@@ -73,6 +73,6 @@ function superfighters() {
 function getontop() {
         location.href = "getontop.html"
 }
-function gunblood() {
-        location.href = "gunblood.html"
+function raze3() {
+        location.href = "raze3.html"
 }
