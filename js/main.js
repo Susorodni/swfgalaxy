@@ -53,26 +53,35 @@ function zombocalypse() {
         location.href = "zombocalypse.html";
 };
 function impossiblequiz() {
-        location.href = "impossiblequiz.html"
+        location.href = "impossiblequiz.html";
 };
 function run3() {
-        location.href = "run3.html"
+        location.href = "run3.html";
 };
 function chibiknight() {
-        location.href = "chibiknight.html"
+        location.href = "chibiknight.html";
 };
 function papasscooperia() {
-        location.href = "papasscooperia.html"
+        location.href = "papasscooperia.html";
 };
 function strikeforceheroes3() {
-        location.href = "strikeforceheroes3.html"
-}
+        location.href = "strikeforceheroes3.html";
+};
 function superfighters() {
-        location.href = "superfighters.html"
-}
+        location.href = "superfighters.html";
+};
 function getontop() {
-        location.href = "getontop.html"
-}
+        location.href = "getontop.html";
+};
 function raze3() {
-        location.href = "raze3.html"
-}
+        location.href = "raze3.html";
+};
+function gunmayhem2() {
+        location.href = "gunmayhem2.html";
+};
+function papasfreezeria() {
+        location.href = "papasfreezeria.html";
+};
+function territorywar() {
+        location.href = "territorywar.html";
+};
