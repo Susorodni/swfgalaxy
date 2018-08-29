@@ -59,6 +59,7 @@ function loadBoxes () {
     // Papa's Freezeria
     document.getElementById("nt2").innerHTML = "Papa's Freezeria";
     document.getElementById("ni2").src = "images/papasfreezeria.jpg";
+    document.getElementById("ni2").style = "max-height:90%;max-width:90%";
     document.getElementById("nb2").onclick = function () { papasfreezeria(); };
     // Papa's Scooperia
     document.getElementById("t14").innerHTML = "Papa's Scooperia";
