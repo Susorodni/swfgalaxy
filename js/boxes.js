@@ -64,7 +64,7 @@ function loadBoxes () {
     document.getElementById("nt2").innerHTML = "Learn to Fly 2";
     document.getElementById("ni2").src = "images/learntofly2.jpeg";
     document.getElementById("nb2").onclick = function () { learntofly2(); };
-    documnet.getElementById("na2").href = "games/learntofly2.swf";
+    document.getElementById("na2").href = "games/learntofly2.swf";
     // Learn to Fly 3
     document.getElementById("t12").innerHTML = "Learn to Fly 3";
     document.getElementById("i12").src = "images/learntofly3.jpeg";
