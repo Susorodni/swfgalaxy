@@ -85,3 +85,12 @@ function papasfreezeria() {
 function territorywar() {
         location.href = "territorywar.html";
 };
+function learntofly() {
+        location.href = "learntofly.html";
+};
+function learntofly2() {
+        location.href = "learntofly2.html";
+};
+function stickrpg() {
+        location.href = "stickrpg.html";
+};
