@@ -106,10 +106,6 @@ function loadBoxes () {
     document.getElementById("i19").src = "images/run3.jpg";
     document.getElementById("b19").onclick = function () { run3(); };
     document.getElementById("a19").href = "games/run-3-unblocked-games_1531491672.swf";
-    // Stick RPG
-    document.getElementById("nt3").innerHTML = "Stick RPG";
-    document.getElementById("ni3").src = "images/stickrpg.jpeg";
-    document.getElementById("nb3").onclick = function () { stickrpg(); };
     // Sports Heads Basketball Championship
     document.getElementById("t20").innerHTML = "Sports Heads Basketball Championship";
     document.getElementById("i20").src = "images/shbc.jpeg";
@@ -120,6 +116,11 @@ function loadBoxes () {
     document.getElementById("i21").src = "images/strikeforceheroes.jpeg";
     document.getElementById("b21").onclick = function () { strikeforceheroes(); };
     document.getElementById("a21").href = "games/strike-force-heroes.swf";
+    // Stick RPG
+    document.getElementById("nt3").innerHTML = "Stick RPG";
+    document.getElementById("ni3").src = "images/stickrpg.jpeg";
+    document.getElementById("nb3").onclick = function () { stickrpg(); };
+    document.getElementById("na3").href = "games/stickrpg.swf";
     // Strike Force Heroes 2
     document.getElementById("t22").innerHTML = "Strike Force Heroes 2";
     document.getElementById("i22").src = "images/strikeforceheroes2.jpeg";
