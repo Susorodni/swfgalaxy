@@ -166,4 +166,4 @@ function loadBoxes () {
     document.getElementById("b30").onclick = function () { zombocalypse(); };
     document.getElementById("a30").href = "games/Zombocalypse.swf";
 }
-window.onload = loadBoxes;
+loadBoxes();
