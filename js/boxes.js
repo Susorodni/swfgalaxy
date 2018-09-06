@@ -159,11 +159,11 @@ function loadBoxes () {
     // Legend of Zelda
     document.getElementById("t29").innerHTML = "The Legend of Zelda";
     document.getElementById("i29").src = "images/legendofzelda.jpeg";
-    document.getElementById("b29").action = "neonk.github.io/zelda/www/index.html
+    document.getElementById("b29").action = "neonk.github.io/zelda/www/index.html";
     // Zombocalypse
     document.getElementById("t30").innerHTML = "Zombocalypse";
     document.getElementById("i30").src = "images/zombo.jpeg";
     document.getElementById("b30").onclick = function () { zombocalypse(); };
     document.getElementById("a30").href = "games/Zombocalypse.swf";
-}
+};
 window.onload = loadBoxes();
