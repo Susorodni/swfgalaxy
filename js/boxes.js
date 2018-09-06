@@ -159,7 +159,7 @@ function loadBoxes () {
     // Legend of Zelda
     document.getElementById("t29").innerHTML = "The Legend of Zelda";
     document.getElementById("i29").src = "images/legendofzelda.jpeg";
-    document.getElementById("b29").onclick = function () { window.open("https://neonk.gtihub.io/zelda/www/index.html","_blank");
+    document.getElementById("b29").action = "neonk.github.io/zelda/www/index.html
     // Zombocalypse
     document.getElementById("t30").innerHTML = "Zombocalypse";
     document.getElementById("i30").src = "images/zombo.jpeg";
