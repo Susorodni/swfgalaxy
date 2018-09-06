@@ -94,3 +94,6 @@ function learntofly2() {
 function stickrpg() {
         location.href = "stickrpg.html";
 };
+function legendofzelda() {
+        window.url = "neonk.github.io/zelda/www/index.html";
+};
