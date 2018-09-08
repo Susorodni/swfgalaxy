@@ -95,7 +95,7 @@ function stickrpg() {
         location.href = "stickrpg.html";
 };
 function legendofzelda() {
-        window.url = "https://neonk.github.io/zelda/www/index.html";
+        location.href = "https://neonk.github.io/zelda/www/index.html";
 };
 function papassushiria() {
         location.href = "papassushiria.html"
