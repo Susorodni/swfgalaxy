@@ -95,5 +95,14 @@ function stickrpg() {
         location.href = "stickrpg.html";
 };
 function legendofzelda() {
-        window.url = "neonk.github.io/zelda/www/index.html";
+        window.url = "https://neonk.github.io/zelda/www/index.html";
+};
+function papassushiria() {
+        location.href = "papassushiria.html"
+};
+function sportsheadstennis() {
+        location.href = "sportsheadstennis.html"
+};
+function sportsheadsvolleyball() {
+        location.href = "sportsheadsvolleyball.html"
 };
