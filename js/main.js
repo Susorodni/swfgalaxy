@@ -32,10 +32,10 @@ function pokemontowerdefense() {
         location.href = "pokemontowerdefense.html";
 };
 function strikeforceheroes() {
-        location.href = "strikeforceheroes.html";
+        location.href = "str1keforceheroes.html";
 };
 function strikeforceheroes2() {
-        location.href = "strikeforceheroes2.html";
+        location.href = "str1keforceheroes2.html";
 };
 function sportsheadsbasketball() {
         location.href = "sportsheadsbasketballchampionship.html";
@@ -65,7 +65,7 @@ function papasscooperia() {
         location.href = "papasscooperia.html";
 };
 function strikeforceheroes3() {
-        location.href = "strikeforceheroes3.html";
+        location.href = "str1keforceheroes3.html";
 };
 function superfighters() {
         location.href = "superfighters.html";
