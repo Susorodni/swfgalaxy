@@ -45,5 +45,10 @@ function strategyBoxes() {
   document.getElementById("i9").src = "images/legendofzelda.jpeg";
   document.getElementById("b9").onclick = function () { legendofzelda(); };
   document.getElementById("a9").href = "downloads/zelda-master.zip"
+  // Theme Hotel
+  document.getElementById("t10").innerHTML = "Theme Hotel";
+  document.getElementById("i10").src = "images/themehotel.jpg";
+  document.getElementById("b10").onclick = function () { themehotel(); };
+  document.getElementById("a10").href = "games/themehotel.swf"
 }
 strategyBoxes();

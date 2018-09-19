@@ -98,11 +98,20 @@ function legendofzelda() {
         location.href = "https://neonk.github.io/zelda/www/index.html";
 };
 function papassushiria() {
-        location.href = "papassushiria.html"
+        location.href = "papassushiria.html";
 };
 function sportsheadstennis() {
-        location.href = "sportsheadstennis.html"
+        location.href = "sportsheadstennis.html";
 };
 function sportsheadsvolleyball() {
-        location.href = "sportsheadsvolleyball.html"
+        location.href = "sportsheadsvolleyball.html";
+};
+function gba() {
+        location.href = "https://neonk.github.io/gba/";
+};
+function sportsheadssoccer() {
+        location.href = "sportsheadssoccer.html";
+};
+function themehotel() {
+        location.href = "themehotel.html";
 };
