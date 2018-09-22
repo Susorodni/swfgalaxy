@@ -29,5 +29,10 @@ function actionBoxes() {
   document.getElementById("i6").src = "images/run3.jpg";
   document.getElementById("b6").onclick = function () { run3(); };
   document.getElementById("a6").href = "games/run-3-unblocked-games_1531491672.swf";
+  // Spelunky
+  document.getElementById("t7").innerHTML = "Spelunky";
+  document.getElementById("i7").src = "images/spelunky.jpg";
+  document.getElementById("b7").onclick = function () { spelunky(); };
+  document.getElementById("a7").href = "downloads/spelunky-master.zip";
 }
 actionBoxes();

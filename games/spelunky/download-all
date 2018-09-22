@@ -1,0 +1,40 @@
+# Download index.html
+rm index.html
+curl -O http://tinysubversions.com/game/spelunky/index.html
+
+rm -r -f html5game
+mkdir html5game
+
+# Download Root Directory level files
+cd html5game
+curl -O http://tinysubversions.com/game/spelunky/html5game/spelunky.js
+curl -O http://tinysubversions.com/game/spelunky/html5game/loadingscreen.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/spelunky_texture_0.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/stats.txt
+curl -O http://tinysubversions.com/game/spelunky/html5game/settings.cfg
+curl -O http://tinysubversions.com/game/spelunky/html5game/keys.cfg
+curl -O http://tinysubversions.com/game/spelunky/html5game/gamepad.cfg
+cd ../
+
+# Download Particle files
+mkdir html5game/particles
+cd html5game/particles
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF2.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF3.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF4.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF5.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF6.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF7.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF8.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF9.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF10.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF11.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF12.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF13.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF14.png
+curl -O http://tinysubversions.com/game/spelunky/html5game/particles/IDR_GIF15.png
+cd ../../
+
+
+
+

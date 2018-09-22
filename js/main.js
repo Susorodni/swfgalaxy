@@ -115,3 +115,12 @@ function sportsheadssoccer() {
 function themehotel() {
         location.href = "themehotel.html";
 };
+function gpemu() {
+        location.href = "https://neonk.github.io/gpemu/";
+};
+function spelunky() {
+        location.href = "games/spelunky/index.html";
+};
+function swordsandsouls() {
+        location.href = "swordsandsouls.html";
+};

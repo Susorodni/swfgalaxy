@@ -44,20 +44,26 @@ function fightingBoxes() {
   document.getElementById("i9").src = "images/swordsandsandals2.jpg";
   document.getElementById("b9").onclick = function () { swordsandsandals2(); };
   document.getElementById("a9").href = "games/Swords and Sandals 2 (Full).swf";
+  // Swords and Souls
+  document.getElementById("t10").innerHTML = "Swords and Souls";
+  document.getElementById("i10").src = "images/swordsandsouls.jpg";
+  document.getElementById("i10").style = "max-width:90%;max-height:90%";
+  document.getElementById("b10").onclick = function () { swordsandsouls(); };
+  document.getElementById("a10").href = "games/swordsandsouls.swf";
   // Tank Trouble
-  document.getElementById("t10").innerHTML = "Tank Trouble";
-  document.getElementById("i10").src = "images/tanktrouble.jpeg";
-  document.getElementById("b10").onclick = function () { tanktrouble(); };
-  document.getElementById("a10").href = "games/tank-trouble.swf";
+  document.getElementById("t11").innerHTML = "Tank Trouble";
+  document.getElementById("i11").src = "images/tanktrouble.jpeg";
+  document.getElementById("b11").onclick = function () { tanktrouble(); };
+  document.getElementById("a11").href = "games/tank-trouble.swf";
   // Territory War
-  document.getElementById("t11").innerHTML = "Territory War";
-  document.getElementById("i11").src = "images/territorywar.jpg";
-  document.getElementById("b11").onclick = function () { territorywar(); };
-  document.getElementById("a11").href = "games/territorywar.swf";
+  document.getElementById("t12").innerHTML = "Territory War";
+  document.getElementById("i12").src = "images/territorywar.jpg";
+  document.getElementById("b12").onclick = function () { territorywar(); };
+  document.getElementById("a12").href = "games/territorywar.swf";
   // Zombocalypse
-  document.getElementById("t12").innerHTML = "Zombocalypse";
-  document.getElementById("i12").src = "images/zombo.jpeg";
-  document.getElementById("b12").onclick = function () { zombocalypse(); };
-  document.getElementById("a12").href = "games/Zombocalypse.swf";
+  document.getElementById("t13").innerHTML = "Zombocalypse";
+  document.getElementById("i13").src = "images/zombo.jpeg";
+  document.getElementById("b13").onclick = function () { zombocalypse(); };
+  document.getElementById("a13").href = "games/Zombocalypse.swf";
 }
 fightingBoxes();
