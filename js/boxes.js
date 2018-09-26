@@ -166,9 +166,9 @@ function loadBoxes () {
     document.getElementById("a30").href = "games/stickrpg.swf";
     // Stick War
     document.getElementById("nt3").innerHTML = "Stick RPG";
-    documnet.getElementById("ni3").src = "images/stickwar.png";
+    document.getElementById("ni3").src = "images/stickwar.png";
     document.getElementById("nb3").onclick = function () { stickrpg(); };
-    documnet.getElementById("na3").href = "games/stickwar.swf";
+    document.getElementById("na3").href = "games/stickwar.swf";
     // Strike Force Heroes
     document.getElementById("t31").innerHTML = "Strike Force Heroes";
     document.getElementById("i31").src = "images/str1keforceheroes.jpeg";
