@@ -12,7 +12,7 @@ function loadBoxes () {
     // Clicker Heroes
     document.getElementById("nt1").innerHTML = "Clicker Heroes";
     document.getElementById("ni1").src = "images/clickerheroes.png";
-    document.getElementById("ni1").style = "max-width:90%;max-height:90%";
+    document.getElementById("ni1").style = "max-width:70%;max-height:70%";
     document.getElementById("nb1").onclick = function () { clickerheroes(); };
     document.getElementById("na1").href = "games/clickerheroes.swf";
     // Duck Life 4
@@ -167,6 +167,7 @@ function loadBoxes () {
     // Stick War
     document.getElementById("nt3").innerHTML = "Stick RPG";
     document.getElementById("ni3").src = "images/stickwar.png";
+    document.getElementById("ni3").style = "max-width:90%;max-height:90%";
     document.getElementById("nb3").onclick = function () { stickrpg(); };
     document.getElementById("na3").href = "games/stickwar.swf";
     // Strike Force Heroes
