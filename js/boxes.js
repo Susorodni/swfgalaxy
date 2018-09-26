@@ -165,7 +165,7 @@ function loadBoxes () {
     document.getElementById("b30").onclick = function () { stickrpg(); };
     document.getElementById("a30").href = "games/stickrpg.swf";
     // Stick War
-    document.getElementById("nt3").innerHTML = "Stick RPG";
+    document.getElementById("nt3").innerHTML = "Stick War";
     document.getElementById("ni3").src = "images/stickwar.png";
     document.getElementById("ni3").style = "max-width:90%;max-height:90%";
     document.getElementById("nb3").onclick = function () { stickrpg(); };
