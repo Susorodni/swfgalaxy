@@ -9,6 +9,12 @@ function loadBoxes () {
     document.getElementById("i2").src = "images/chibiknight.jpg";
     document.getElementById("b2").onclick = function () { chibiknight(); };
     document.getElementById("a2").href = "games/chibiknight.swf";
+    // Clicker Heroes
+    document.getElementById("nt1").innerHTML = "Clicker Heroes";
+    document.getElementById("ni1").src = "images/clickerheroes.png";
+    document.getElementById("ni1").style = "max-width:90%;max-height:90%";
+    document.getElementById("nb1").onclick = function () { clickerheroes(); };
+    document.getElementById("na1").href = "games/clickerheroes.swf";
     // Duck Life 4
     document.getElementById("t3").innerHTML = "Duck Life 4";
     document.getElementById("i3").src = "images/ducklife-4.jpeg";
@@ -87,6 +93,11 @@ function loadBoxes () {
     document.getElementById("i16").src = "images/papasbakeria.jpeg";
     document.getElementById("b16").onclick = function () { papasbakeria(); };
     document.getElementById("a16").href = "games/papasbakeria.swf";
+    // Obey the Game
+    document.getElementById("nt2").innerHTML = "Obey the Game";
+    document.getElementById("ni2").src = "images/obeythegame.jpg";
+    document.getElementById("nb2").onclick = function () { obeythegame(); };
+    document.getElementById("na2").href = "games/obeythegame.swf";
     // Papa's Donuteria
     document.getElementById("t17").innerHTML = "Papa's Donuteria";
     document.getElementById("i17").src = "images/papasdonuteria.jpeg";

@@ -1,424 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>SWF Runner</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="shortcut icon" type="image/x-icon" href="bitbot.ico" />
-  </head>
-  <body>
-    <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="index.html">Home</a>
-  <a href="strategy.html">Strategy</a>
-  <a href="fighting.html">Fighting</a>
-  <a href="action.html">Action</a>
-  <a href="cooking.html">Cooking</a>
-  <a href="sports.html">Sports</a>
-  <a href="faq.html">FAQ</a>
-</div>
-<a href="https://neonk.github.io/swfrunnercommunist/"><img id="communism" src="images/communismno.png"></a>
-<span style="font-size:30px;cursor:pointer;position:fixed;top:20px;" onclick="openNav()">&#9776;</span>
-    <center>
-      <header class="table">
-        <img id="title" src="images/logo_transparent.png">
-        <div id="sidenotes1">
-          <p><b>Patch Notes<br>v1.33</b></p>
-          <p>-Early Update!<br>-Added another emulator and two more games</p>
-        </div>
-        <a href="https://1drv.ms/xs/s!Aoucxa7MxhZQlF69eaKLiT2-ODK1?wdFormId=%7BF2377BAB%2D9CF9%2D473B%2D93B7%2DD44A5A3CC583%7D" target="_blank"><div id="sidenotes2">
-          <h3 style="color:black"><b>You can now<br> recommend new games<br>and send feedback<br> by clicking on<br> this box.</b></h3>
-        </div></a>
-      </header>
-    </center>
-    <h3 style="text-align:center;font-family:megrim;font-weight:bold;">Select a game:</h3>
-        <center>
-          <div id="wrap">
-             <!-- New Box 1 -->
-            <div class="left">
-              <img src="images/new.png" id="new">
-              <p id="nt1"></p>
-              <img id="ni1">
-              <br>
-              <button type="button" id="nb1">Play</button>
-              <a id="na1" download><button type=button>Download</button></a>
-            </div>
-             <!-- New Box 2 -->
-            <div class="center">
-              <img src="images/new.png" id="new">
-              <p id="nt2"></p>
-              <img id="ni2">
-              <br>
-              <button id="nb2">Play</button>
-              <a id="na2" download><button type=button>Download</button></a>
-            </div>
-             <!-- New Box 3 -->
-            <div class="right">
-              <img src="images/new.png" id="new">
-              <p id="nt3"></p>
-              <img id="ni3">
-              <br>
-              <button type="button" id="nb3">Play</button>
-              <a id="na3" download><button type=button>Download</button></a>
-          </div>
-          </div>
-          <br id="newborder">
-          <div id="wrap">
-            <!-- Box 1 -->
-          <div class="left">
-            <p id="t1"></p>
-            <img id="i1">
-            <br>
-            <button type=button id="b1">Play</button>
-            <a id="a1" download><button type=button>Download</button></a>
-    </div>
-            <!-- Box 2 -->
-    <div class="center">
-      <p id="t2"></p>
-      <img id="i2">
-      <br>
-      <button type="button" id="b2">Play</button>
-      <a id="a2" download><button type=button>Download</button></a>
-    </div>
-            <!-- Box 3 -->
-          <div class="right">
-      <p id="t3"></p>
-      <img id="i3">
-      <br>
-      <button type="button" id="b3">Play</button>
-      <a id="a3" download><button type=button>Download</button></a>
-    </div>
-    </div>
-          <br>
-          <div id="wrap">
-            <!-- Box 4 -->
-            <div class="left">
-              <p id="t4"></p>
-              <img id="i4">
-              <br>
-              <button type="button" id="b4">Play</button>
-              <a id="a4" download><button type=button>Download</button></a>
-            </div>
-            <!-- Box 5 -->
-            <div class="center">
-                <p id="t5"></p>
-                <img id="i5">
-                <br>
-                <button type="button" id="b5">Play</button>
-                <a id="a5" download><button type=button>Download</button></a>
-            </div>
-            <!-- Box 6 -->
-              <div class="right">
-                              <p id="t6"></p>
-                              <img id="i6">
-              <br>
-              <button type="button" id="b6">Play</button>
-              <a id="a6" download><button type=button>Download</button></a>
-                                                   </div>
-            </div>
-          </div>
-          <br>
-          <div id="wrap">
-            <!-- Box 7 -->
-                        <div class="left">
-                                      <p id="t7"></p>
-                <img id="i7">
-              <br>
-              <button type="button" id="b7">Play</button>
-              <a id="a7" download><button type=button>Download</button></a>
-                                                  </div>
-            <!-- Box 8 -->
-            <div class="center">
-                <p id="t8"></p>
-                <img id="i8">
-                <br>
-                <button type="button" id="b8">Play</button>
-                <a id="a8" download><button type=button>Download</button></a>
-            </div>
-            <!-- Box 9 -->
-              <div class="right">
-                              <p id="t9"></p>
-                              <img id="i9">
-              <br>
-              <button type="button" id="b9">Play</button>
-              <a id="a9" download><button type=button>Download</button></a>
-                                                   </div>
-            </div>
-          </div>
-            <br>
-            <div id="wrap">
-           <!-- Box 10 -->
-                          <div class="left">
-                <p id="t10"></p>
-                <img id="i10">
-              <br>
-              <button type="button" id="b10">Play</button>
-              <a id="a10" download><button type=button>Download</button></a>
-            </div>
-           <!-- Box 11 -->
-              <div class="center">
-                <p id="t11"></p>
-                <img id="i11">
-                <br>
-                <button type="button" id="b11">Play</button>
-                <a id="a11" download><button type=button>Download</button></a>
-                  </div>
-           <!-- Box 12 -->
-                  <div class="right">
-                    <p id="t12"></p>
-                    <img id="i12">
-                    <br>
-                    <button type="button" id="b12">Play</button>
-                    <a id="a12" download><button type=button>Download</button></a>
-                      </div>
-  </div>
-                      <br>
-                      <div id="wrap">
-           <!-- Box 13 -->
-                          <div class="left">
-                        <p id="t13"></p>
-                        <img id="i13">
-                        <br>
-                        <button type="button" id="b13">Play</button>
-                        <a id="a13" download><button type=button>Download</button></a>
-                      </div>
-           <!-- Box 14 -->
-              <div class="center">
-                <p id="t14"></p>
-                <img id="i14">
-                <br>
-                <button type="button" id="b14">Play</button>
-                <a id="a14" download><button type=button>Download</button></a>
-              </div>
-           <!-- Box 15 -->
-              <div class="right">
-                <p id="t15"></p>
-                <img id="i15">
-                <br>
-                <button type="button" id="b15">Play</button>
-                <a id="a15" download><button type=button>Download</button></a>
-              </div>
-            </div>
-            <br>
-            <div id="wrap">
-          <!-- Box 16 -->
-                          <div class="left">
-                <p id="t16"></p>
-                <img id="i16">
-                <br>
-                <button type="button" id="b16">Play</button>
-                <a id="a16" download><button type=button>Download</button></a>
-              </div>
-          <!-- Box 17 -->
-              <div class="center">
-                <p id="t17"></p>
-                <img id="i17">
-                <br>
-                <button type="button" id="b17">Play</button>
-                <a id="a17" download><button type=button>Download</button></a>
-              </div>
-          <!-- Box 18 -->
-              <div class="right">
-                <p id="t18"></p>
-                <img id="i18">
-                <br>
-                <button type="button" id="b18">Play</button>
-                <a id="a18" download><button type=button>Download</button></a>
-              </div>
-            </div>
-                                                 <br>
-                <div id="wrap">
-          <!-- Box 19 -->
-                              <div class="left">
-                <p id="t19"></p>
-                <img id="i19">
-                <br>
-                <button type="button" id="b19">Play</button>
-                <a id="a19" download><button type=button>Download</button></a>
-              </div>
-          <!-- Box 20 -->
-              <div class="center">
-                <p id="t20"></p>
-                <img id="i20">
-                <br>
-                <button type="button" id="b20">Play</button>
-                <a id="a20" download><button type=button>Download</button></a>
-              </div>
-          <!-- Box 21 -->
-              <div class="right">
-                <p id="t21"></p>
-                <img id="i21">
-                <br>
-                <button type="button" id="b21">Play</button>
-                <a id="a21" download><button type=button>Download</button></a>
-              </div>
-            </div>
-            <br>
-            <div id="wrap">
-          <!-- Box 22 -->
-              <div class="left">
-                <p id="t22"></p>
-                <img id="i22">
-                <br>
-                <button type="button" id="b22">Play</button>
-                <a id="a22" download><button type=button>Download</button></a>
-              </div>
-          <!-- Box 23 -->
-              <div class="center">
-                <p id="t23"></p>
-                <img id="i23">
-                <br>
-                <button type="button" id="b23">Play</button>
-                <a id="a23" download><button type=button>Download</button></a>
-              </div>
-          <!-- Box 24 -->
-              <div class="right">
-                <p id="t24"></p>
-                <img id="i24">
-                <br>
-                <button type="button" id="b24">Play</button>
-                <a id="a24" download><button type=button>Download</button></a>
-              </div>
-              <div id="wrap">
-                <br>
-          <!-- Box 25 -->
-              <div class="left">
-                <p id="t25"></p>
-                <img id="i25">
-                <br>
-                <button type="button" id="b25">Play</button>
-                <a id="a25" download><button type=button>Download</button></a>
-            </div>
-          <!-- Box 26 -->
-                <div class="center">
-                  <p id="t26"></p>
-                  <img id="i26">
-                  <br>
-                  <button type="button" id="b26">Play</button>
-                  <a id="a26" download><button type=button>Download</button></a>
-                </div>
-          <!-- Box 27 -->
-                <div class="right">
-                  <p id="t27"></p>
-                  <img id="i27">
-                  <br>
-                  <button type="button" id="b27">Play</button>
-                  <a id="a27" download><button type=button>Download</button></a>
-                </div>
-              </div>
-              <br>
-              <div id="wrap">
-                <br>
-           <!-- Box 28 -->
-                <div class="left">
-                  <p id="t28"></p>
-                  <img id="i28">
-                  <br>
-                  <button type="button" id="b28">Play</button>
-                  <a id="a28" download><button type=button>Download</button></a>
-                </div>
-           <!-- Box 29 -->
-                <div class="center">
-                  <p id="t29"></p>
-                  <img id="i29">
-                  <br>
-                  <button type="button" id="b29">Play</button>
-                  <a id="a29" download><button type=button>Download</button></a>
-                </div>
-           <!-- Box 30 -->
-                <div class="right">
-                  <p id="t30"></p>
-                  <img id="i30">
-                  <br>
-                  <button type="button" id="b30">Play</button>
-                  <a id="a30" download><button type=button>Download</button></a>
-                </div>
-              </div>
-              <br>
-           <div id="wrap">
-             <br>
-           <!-- Box 31 -->
-           <div class="left">
-             <p id="t31"></p>
-             <img id="i31">
-             <br>
-             <button type="button" id="b31">Play</button>
-             <a id="a31" download><button type=button>Download</button></a>
-           </div>
-           <!-- Box 32 -->
-           <div class="center">
-             <p id="t32"></p>
-             <img id="i32">
-             <br>
-             <button type="button" id="b32">Play</button>
-             <a id="a32" download><button type=button>Download</button></a>
-           </div>
-           <!-- Box 33 -->
-           <div class="right">
-             <p id="t33"></p>
-             <img id="i33">
-             <br>
-             <button type="button" id="b33">Play</button>
-             <a id="a33" download><button type=button>Download</button></a>
-           </div>
-         </div>
-         <br>
-         <div id="wrap">
-           <br>
-          <!-- Box 34 -->
-          <div class="left">
-            <p id="t34"></p>
-            <img id="i34">
-            <br>
-            <button type="button" id="b34">Play</button>
-            <a id="a34" download><button type=button>Download</button</a>
-            </div>
-          <!-- Box 35 -->
-          <div class="center">
-            <p id="t35"></p>
-            <img id="i35">
-            <br>
-            <button type="button" id="b35">Play</button>
-            <a id="a35" download><button type=button>Download</button</a>
-            </div>
-          <!-- Box 36 -->
-          <div class="right">
-            <p id="t36"></p>
-            <img id="i36">
-            <br>
-            <button type="button" id="b36">Play</button>
-            <a id="a36" download><button type=button>Download</button</a>
-            </div>
-          </div>
-          <br>
-          <div id="wrap">
-            <br>
-           <!-- Box 37 -->
-           <div class="left">
-             <p id="t37"></p>
-             <img id="i37">
-             <br>
-             <button type="button" id="b37">Play</button>
-             <a id="a37" download><button type=button>Download</button</a>
-             </div>
-           <!-- Box 38 -->
-           <div class="center">
-             <p id="t38"></p>
-             <img id="i38">
-             <br>
-             <button type="button" id="b38">Play</button>
-             <a id="a38" download><button type=button>Download</button</a>
-             </div>
-           <!-- Box 39 -->
-           <div class="right">
-             <p id="t39"></p>
-             <img id="i39">
-             <br>
-             <button type="button" id="b39">Play</button>
-             <a id="a39" download><button type=button>Download</button</a>
-             </div>
-           </div>
-    </center>
-<script src="js/main.js"></script>
-<script src="js/boxes.js"></script>
-<script src="js/menu.js"></script>
+<body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h2 style="font-family:sans-serif">Home menu under construction</h2>
+  <h3 style="font-family:sans-serif">But you can still access some games!</h3>
+  <ul>
+    <li>New Games</li>
+    <li><a href="gunmayhem2.html">Gun Mayhem 2</a></li>
+    <li><a href="papasfreezeria.html">Papa's Freezeria</a></li>
+    <li><a href="territorywar.html">Territory War</a></li>
+  </ul>
+  <ul>
+    <li><a href="btd5.html">BTD5</a></li>
+    <li><a href="chibiknight.html">Chibi Knight</a></li>
+    <li><a href="ducklife4.html">Duck Life 4</a></li>
+    <li><a href="flappybird.html">Flappy Bird</a></li>
+    <li><a href="geometrydash.html">Geometry Dash</a></li>
+    <li><a href="getontop.html">Get on Top</a></li>
+    <li><a href="giveup2.html">Give Up 2</a></li>
+    <li><a href="happywheels.html">Happy Wheels</a></li>
+    <li><a href="impossiblequiz.html">Impossible Quiz</a></li>
+    <li><a href="jacksmith.html">Jacksmith</a></li>
+    <li><a href="learntofly3.html">Learn to Fly 3</a></li>
+    <li><a href="papasbakeria.html">Papa's Bakeria</a></li>
+    <li><a href="papasdonuteria.html">Papa's Donuteria</a></li>
+    <li><a href="papasscooperia.html">Papa's Scooperia</a></li>
+    <li><a href="pokemontowerdefense.html">Pokemon Tower Defense</a></li>
+    <li><a href="raze3.html">Raze 3</a></li>
+    <li><a href="run3.html">Run 3</a></li>
+    <li><a href="sportsheadsbasketballchampionship.html">Sports Heads Basketball Championship</a></li>
+    <li><a href="strikeforceheroes.html">Strike Force Heroes</a></li>
+    <li><a href="strikeforceheroes2.html">Strike Force Heroes 2</a></li>
+    <li><a href="strikeforceheroes3.html">Strike Force Heroes 3</a></li>
+    <li><a href="superfighters.html">Super Fighters</a></li>
+    <li><a href="supersmashflash.html">Super Smash Flash</a></li>
+    <li><a href="swordsandsandals2.html">Swords and Sandals 2</a></li>
+    <li><a href="tanktrouble.html">Tank Trouble</a></li>
+    <li><a href="neonk.github.io/zelda/www/index.html">Legend of Zelda</a></li>
+    <li><a href="zombocalypse.html">Zombocalypse</a></li>
+  </ul>
+</body>
 </html>
