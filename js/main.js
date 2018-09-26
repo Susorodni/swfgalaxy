@@ -124,3 +124,12 @@ function spelunky() {
 function swordsandsouls() {
         location.href = "swordsandsouls.html";
 };
+function clickerheroes() {
+        location.href = "clickerheroes.html";
+};
+function obeythegame() {
+        location.href = "obeythegame.html";
+};
+function stickwar() {
+        location.href = "stickwar.html";
+};
