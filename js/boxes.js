@@ -167,7 +167,7 @@ function loadBoxes () {
     // Stick War
     document.getElementById("nt3").innerHTML = "Stick War";
     document.getElementById("ni3").src = "images/stickwar.png";
-    document.getElementById("ni3").style = "max-width:90%;max-height:90%";
+    document.getElementById("ni3").style = "max-width:75%;max-height:75%";
     document.getElementById("nb3").onclick = function () { stickrpg(); };
     document.getElementById("na3").href = "games/stickwar.swf";
     // Strike Force Heroes
