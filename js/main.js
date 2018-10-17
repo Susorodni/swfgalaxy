@@ -140,5 +140,5 @@ function stickwar2() {
         location.href = "stickwar2.html";
 };
 function thelaststandunioncity() {
-        location.href = "thelaststandunioncity.html";
+        location.href = "thelaststandunion.html";
 };
