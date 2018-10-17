@@ -133,3 +133,12 @@ function obeythegame() {
 function stickwar() {
         location.href = "stickwar.html";
 };
+function ducklife3() {
+        location.href = "ducklife3.html";
+};
+function stickwar2() {
+        location.href = "stickwar2.html";
+};
+function thelaststandunioncity() {
+        location.href = "thelaststandunioncity.html";
+};
