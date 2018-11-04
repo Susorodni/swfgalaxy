@@ -142,3 +142,12 @@ function stickwar2() {
 function thelaststandunioncity() {
         location.href = "thelaststandunion.html";
 };
+function miraginewar() {
+        location.href = "miraginewar.html";
+};
+function unfairmario() {
+        location.href = "unfairmario.html";
+};
+function zombocalypse2() {
+        location.href = "zombocalypse2.html";
+}

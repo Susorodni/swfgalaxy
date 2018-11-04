@@ -34,5 +34,10 @@ function actionBoxes() {
   document.getElementById("i7").src = "images/spelunky.jpg";
   document.getElementById("b7").onclick = function () { spelunky(); };
   document.getElementById("a7").href = "downloads/spelunky-master.zip";
+  // Unfair Mario
+  document.getElementById("t8").innerHTML = "Unfair Mario";
+  document.getElementById("i8").src = "images/unfairmario.png";
+  document.getElementById("b8").onclick = function () { unfairmario(); };
+  document.getElementById("a8").href = "games/unfairmario.swf";
 }
 actionBoxes();
