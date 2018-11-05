@@ -258,9 +258,9 @@ function loadBoxes () {
     document.getElementById("a48").href = "games/Zombocalypse.swf";
     // Zombocalypse 2
     document.getElementById("nt3").innerHTML = "Zombocalypse 2";
-    document.getElementById("ni3").src = "images/zombocalypse2.jpg";
-    document.getElementById("nb3").onclick = function () { zombocalypse2(); };
-    document.getElementById("na3").href = "games/zombocalypse2.swf";
+    document.getElementById("ni3").src = "images/zombocalypse2notworking.jpeg";
+    // document.getElementById("nb3").onclick = function () { zombocalypse2(); };
+    // document.getElementById("na3").href = "games/zombocalypse2.swf";
 
 };
 loadBoxes();
