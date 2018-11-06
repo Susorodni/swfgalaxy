@@ -24,20 +24,25 @@ function actionBoxes() {
   document.getElementById("i5").src = "images/happywheels.jpeg";
   document.getElementById("b5").onclick = function () { happywheels(); };
   document.getElementById("a5").href = "games/HappyWheels.swf";
+  // HS Series - Escaping the Prison
+  document.getElementById("t6").innerHTML = "HS Series - Escaping the Prison"
+  document.getElementById("i6").src = "images/escapingtheprison.jpg";
+  document.getElementById("b6").onclick = function () { escapingtheprison(); };
+  document.getElementById("a6").href = "games/escapingtheprison.swf";
   // Run 3
-  document.getElementById("t6").innerHTML = "Run 3";
-  document.getElementById("i6").src = "images/run3.jpg";
-  document.getElementById("b6").onclick = function () { run3(); };
-  document.getElementById("a6").href = "games/run-3-unblocked-games_1531491672.swf";
+  document.getElementById("t7").innerHTML = "Run 3";
+  document.getElementById("i7").src = "images/run3.jpg";
+  document.getElementById("b7").onclick = function () { run3(); };
+  document.getElementById("a7").href = "games/run-3-unblocked-games_1531491672.swf";
   // Spelunky
-  document.getElementById("t7").innerHTML = "Spelunky";
-  document.getElementById("i7").src = "images/spelunky.jpg";
-  document.getElementById("b7").onclick = function () { spelunky(); };
-  document.getElementById("a7").href = "downloads/spelunky-master.zip";
+  document.getElementById("t8").innerHTML = "Spelunky";
+  document.getElementById("i8").src = "images/spelunky.jpg";
+  document.getElementById("b8").onclick = function () { spelunky(); };
+  document.getElementById("a8").href = "downloads/spelunky-master.zip";
   // Unfair Mario
-  document.getElementById("t8").innerHTML = "Unfair Mario";
-  document.getElementById("i8").src = "images/unfairmario.png";
-  document.getElementById("b8").onclick = function () { unfairmario(); };
-  document.getElementById("a8").href = "games/unfairmario.swf";
+  document.getElementById("t9").innerHTML = "Unfair Mario";
+  document.getElementById("i9").src = "images/unfairmario.png";
+  document.getElementById("b9").onclick = function () { unfairmario(); };
+  document.getElementById("a9").href = "games/unfairmario.swf";
 }
 actionBoxes();

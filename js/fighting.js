@@ -80,10 +80,5 @@ function fightingBoxes() {
   document.getElementById("i16").src = "images/zombo.jpeg";
   document.getElementById("b16").onclick = function () { zombocalypse(); };
   document.getElementById("a16").href = "games/Zombocalypse.swf";
-  // Zombocalypse 2
-  document.getElementById("t17").innerHTML = "Zombocalypse 2";
-  document.getElementById("i17").src = "images/zombocalypse2.jpg";
-  document.getElementById("b17").onclick = function () { zombocalypse2(); };
-  document.getElementById("a17").href = "games/zombocalypse2.swf";
 }
 fightingBoxes();

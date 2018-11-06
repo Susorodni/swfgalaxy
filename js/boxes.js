@@ -67,6 +67,11 @@ function loadBoxes () {
     document.getElementById("i13").src = "images/happywheels.jpeg";
     document.getElementById("b13").onclick = function () { happywheels(); };
     document.getElementById("a13").href = "games/HappyWheels.swf";
+    // HS Series - Escaping the Prison
+    document.getElementById("nt1").innerHTML = "HS Series - Escaping the Prison"
+    document.getElementById("ni1").src = "images/escapingtheprison.jpg";
+    document.getElementById("nb1").onclick = function () { escapingtheprison(); };
+    document.getElementById("na1").href = "games/escapingtheprison.swf";
     // Impossible Quiz
     document.getElementById("t14").innerHTML = "Impossible Quiz";
     document.getElementById("i14").src = "images/impossiblequiz.png";
@@ -94,10 +99,10 @@ function loadBoxes () {
     document.getElementById("b18").onclick = function () { learntofly3(); };
     document.getElementById("a18").href = "games/learn-to-fly-3.swf";
     // Miragine War
-    document.getElementById("nt1").innerHTML = "Miragine War";
-    document.getElementById("ni1").src = "images/miraginewar.png";
-    document.getElementById("nb1").onclick = function () { miraginewar(); };
-    document.getElementById("na1").href = "games/miraginewar.swf";
+    document.getElementById("nt2").innerHTML = "Miragine War";
+    document.getElementById("ni2").src = "images/miraginewar.png";
+    document.getElementById("nb2").onclick = function () { miraginewar(); };
+    document.getElementById("na2").href = "games/miraginewar.swf";
     // Papa's Bakeria
     document.getElementById("t19").innerHTML = "Papa's Bakeria";
     document.getElementById("i19").src = "images/papasbakeria.jpeg";
@@ -247,20 +252,15 @@ function loadBoxes () {
     document.getElementById("b47").onclick = function () { themehotel(); };
     document.getElementById("a47").href = "games/themehotel.swf"
     // Unfair Mario
-    document.getElementById("nt2").innerHTML = "Unfair Mario";
-    document.getElementById("ni2").src = "images/unfairmario.png";
-    document.getElementById("nb2").onclick = function () { unfairmario(); };
-    document.getElementById("na2").href = "games/unfairmario.swf";
+    document.getElementById("nt3").innerHTML = "Unfair Mario";
+    document.getElementById("ni3").src = "images/unfairmario.png";
+    document.getElementById("nb3").onclick = function () { unfairmario(); };
+    document.getElementById("na3").href = "games/unfairmario.swf";
     // Zombocalypse
     document.getElementById("t48").innerHTML = "Zombocalypse";
     document.getElementById("i48").src = "images/zombo.jpeg";
     document.getElementById("b48").onclick = function () { zombocalypse(); };
     document.getElementById("a48").href = "games/Zombocalypse.swf";
-    // Zombocalypse 2
-    document.getElementById("nt3").innerHTML = "Zombocalypse 2";
-    document.getElementById("ni3").src = "images/zombocalypse2notworking.jpeg";
-    // document.getElementById("nb3").onclick = function () { zombocalypse2(); };
-    // document.getElementById("na3").href = "games/zombocalypse2.swf";
 
 };
 loadBoxes();

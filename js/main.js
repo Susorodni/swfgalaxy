@@ -148,6 +148,6 @@ function miraginewar() {
 function unfairmario() {
         location.href = "unfairmario.html";
 };
-function zombocalypse2() {
-        location.href = "zombocalypse2.html";
+function escapingtheprison() {
+        location.href = "escapingtheprison.html";
 }
