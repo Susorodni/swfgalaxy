@@ -150,4 +150,13 @@ function unfairmario() {
 };
 function escapingtheprison() {
         location.href = "escapingtheprison.html";
-}
+};
+function stealingthediamond() {
+        location.href = "stealingthediamond.html";
+};
+function infilteratingtheairship() {
+        location.href = "infilteratingtheairship.html";
+};
+function fleeingthecomplex() {
+        location.href = "fleeingthecomplex.html";
+};
