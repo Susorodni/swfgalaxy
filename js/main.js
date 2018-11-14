@@ -160,3 +160,12 @@ function infilteratingtheairship() {
 function fleeingthecomplex() {
         location.href = "fleeingthecomplex.html";
 };
+function btd5hacked() {
+        location.href = "btd5hacked.html";
+};
+function impossiblequizhacked() {
+        location.href = "impossiblequizhacked.html";
+};
+function themehotelhacked() {
+        location.href = "themehotelhacked.html";
+};

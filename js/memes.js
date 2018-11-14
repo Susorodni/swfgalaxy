@@ -208,3 +208,73 @@ var span = document.getElementsByClassName("close")[14];
 span.onclick = function() {
     modal.style.display = "none";
 }
+// Meme 16
+var modal = document.getElementById('modal16');
+var img = document.getElementById('meme16');
+var modalImg = document.getElementById("img16");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[15];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+// Meme 17
+var modal = document.getElementById('modal17');
+var img = document.getElementById('meme17');
+var modalImg = document.getElementById("img17");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[16];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+// Meme 18
+var modal = document.getElementById('modal18');
+var img = document.getElementById('meme18');
+var modalImg = document.getElementById("img18");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[17];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+// Meme 19
+var modal = document.getElementById('modal19');
+var img = document.getElementById('meme19');
+var modalImg = document.getElementById("img19");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[18];
+span.onclick = function() {
+    modal.style.display = "none";
+}
+// Meme 20
+var modal = document.getElementById('modal20');
+var img = document.getElementById('meme20');
+var modalImg = document.getElementById("img20");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+var span = document.getElementsByClassName("close")[19];
+span.onclick = function() {
+    modal.style.display = "none";
+}

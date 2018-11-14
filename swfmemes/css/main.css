@@ -132,3 +132,57 @@ img {
   font-weight: bold;
   color: white;
 }
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    bottom: 0;
+    position: fixed;
+}
+
+.icon-bar a {
+    float: left;
+    width: 33.3333333333%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+#wraphacked {
+  width: 1200px;
+  height: 600px;
+}
+.lefthacked {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: #2ec19f;
+  text-align: center;
+  font-weight: bold;
+  float: left;
+}
+.centerhacked {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: #2ec19f;
+  text-align: center;
+  display: inline-block;
+}
+.righthacked {
+  width: 300px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: #2ec19f;
+  text-align: center;
+  float: right;
+}
