@@ -276,7 +276,7 @@ function loadBoxes () {
     document.getElementById("t51").innerHTML = "Zombocalypse";
     document.getElementById("i51").src = "images/zombo.jpeg";
     document.getElementById("b51").onclick = function () { zombocalypse(); };
-    document.getElementById("a51").href = "games/Zombocalypse.swf";
+    document.getElementById("a51").href = "games/zombocalypse.swf";
 
 };
 loadBoxes();

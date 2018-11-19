@@ -50,7 +50,7 @@ function tanktrouble() {
         location.href = "tanktrouble.html";
 };
 function zombocalypse() {
-        location.href = "zombocalypse.html";
+        location.href = "zombocalyps3.html";
 };
 function impossiblequiz() {
         location.href = "impossiblequiz.html";

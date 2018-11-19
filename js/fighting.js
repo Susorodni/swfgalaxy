@@ -79,6 +79,6 @@ function fightingBoxes() {
   document.getElementById("t16").innerHTML = "Zombocalypse";
   document.getElementById("i16").src = "images/zombo.jpeg";
   document.getElementById("b16").onclick = function () { zombocalypse(); };
-  document.getElementById("a16").href = "games/Zombocalypse.swf";
+  document.getElementById("a16").href = "games/zombocalypse.swf";
 }
 fightingBoxes();
