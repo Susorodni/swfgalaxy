@@ -274,9 +274,9 @@ function loadBoxes () {
     document.getElementById("a50").href = "games/unfairmario.swf";
     // Zombocalypse
     document.getElementById("t51").innerHTML = "Zombocalypse";
-    document.getElementById("i51").src = "images/zombo.jpeg";
+    document.getElementById("i51").src = "images/zombocalypse.jpg";
     document.getElementById("b51").onclick = function () { zombocalypse(); };
-    document.getElementById("a51").href = "games/zombocalypse.swf";
+    document.getElementById("a51").href = "games/zombocalyps3.swf";
 
 };
 loadBoxes();
