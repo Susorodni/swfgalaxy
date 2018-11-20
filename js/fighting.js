@@ -77,7 +77,7 @@ function fightingBoxes() {
   document.getElementById("a15").href = "games/thelaststandunioncity.swf";
   // Zombocalypse
   document.getElementById("t16").innerHTML = "Zombocalypse";
-  document.getElementById("i16").src = "images/zombocalypse.jpg";
+  document.getElementById("i16").src = "images/zombocalyps3.jpeg";
   document.getElementById("b16").onclick = function () { zombocalypse(); };
   document.getElementById("a16").href = "games/zombocalyps3.swf";
 }
