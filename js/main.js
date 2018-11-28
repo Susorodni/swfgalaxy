@@ -169,3 +169,12 @@ function impossiblequizhacked() {
 function themehotelhacked() {
         location.href = "themehotelhacked.html";
 };
+function billiards() {
+        location.href = "billiards.html";
+};
+function deadvalley() {
+        location.href = "games/deadvalley/deadvalley.html";
+};
+function superfightersultimate() {
+        location.href = "superfightersultimate.html";
+};
