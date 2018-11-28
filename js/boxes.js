@@ -20,11 +20,11 @@ function loadBoxes () {
     document.getElementById("i3").style = "max-width:70%;max-height:70%";
     document.getElementById("b3").onclick = function () { clickerheroes(); };
     document.getElementById("a3").href = "games/clickerheroes.swf";
-    // Dead Valley
-    document.getElementById("nt2").innerHTML = "Dead Valley";
-    document.getElementById("ni2").src = "images/deadvalley.jpg";
-    document.getElementById("nb2").onclick = function () { deadvalley(); };
-    document.getElementById("na2").href = "downloads/dead-valley-master.zip"
+    // Duck Life 2
+    document.getElementById("nt2").innerHTML = "Duck life 2";
+    document.getElementById("ni2").src = "images/ducklife2.jpg";
+    document.getElementById("nb2").onclick = function () { ducklife2(); };
+    document.getElementById("na2").href = "games/ducklife2.swf"
     // Duck Life 3
     document.getElementById("t4").innerHTML = "Duck Life 3";
     document.getElementById("i4").src = "images/ducklife3.jpg";

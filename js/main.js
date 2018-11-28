@@ -172,8 +172,8 @@ function themehotelhacked() {
 function billiards() {
         location.href = "billiards.html";
 };
-function deadvalley() {
-        location.href = "games/deadvalley/deadvalley.html";
+function ducklife2() {
+        location.href = "ducklife2.html";
 };
 function superfightersultimate() {
         location.href = "superfightersultimate.html";
