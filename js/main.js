@@ -178,3 +178,12 @@ function ducklife2() {
 function superfightersultimate() {
         location.href = "superfightersultimate.html";
 };
+function deadvalley() {
+        location.href = "games/deadvalley/deadvalley.html";
+};
+function supermarioflash() {
+        location.href = "supermarioflash.html";
+};
+function supermarioflash2() {
+        location.href = "supermarioflash2.html";
+};

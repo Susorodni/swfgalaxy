@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dead Valley</title>
+    <meta name="keywords" content="game,zombies,HTML5,HTML5 game" />
+    <meta name="description" content="Escape from Zombie-infested Dead Valley in this HTML5 Grand Theft Auto style Game." />
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/game.css?cb=###">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <script src="vendor/underscore-min.js"></script>
+    <script src="vendor/jquery-1.7.1.min.js"></script>
+    <script src="vendor/jquery-ui-1.8.16.custom.min.js"></script>
+    <script src="vendor/sound.js"></script>
+    <script src="vendor/modernizr.js"></script>
+    <script src="vendor/require.js"></script>
+    <script src="config.js?cb=###"></script>
+
+    <script type="text/javascript">
+      if (window.DV) {
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-32940066-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      }
+    </script>
+  </head>
+  <body>
+    <div id="container">
+
+      <div id="dude-inventory"></div>
+      <div id="other-inventory"></div>
+      <div id="fuel-gauge">
+        <div id="fuel-gauge-needle"></div>
+      </div>
+      <div id="check-engine-light"></div>
+      <div id="low-fuel-light"></div>
+      <div id="lower-right">
+        <span id="time">
+          <span class="hours">&nbsp;</span>
+          <span class="colon">&nbsp;</span>
+          <span class="minutes">&nbsp;</span>
+          <span class="meridiem">&nbsp;</span>
+        </span>
+        <span id="time-remaining">&nbsp;</span>
+        <span id="distance">&nbsp;</span>
+        <span id="framerate">&nbsp;</span>
+      </div>
+      <div id="life"></div>
+
+      <div id="canvas-mask" class="crosshair">
+        <div id="nuke"></div>
+        <div id="sprites">
+          <canvas id="sky-canvas" width="900" height="600"></canvas>
+        </div>
+        <canvas id="background" width="900" height="600"></canvas>
+      </div>
+
+      <div id="loading-screen" class="overlay">
+        <div id="progress"><div id="progress-slider"></div></div>
+      </div>
+
+      <div id="main-screen" class="overlay">
+        <div id="main-content">
+          <h1 id="title">DEAD VALLEY</h1>
+          <img id="graphic" src="assets/graphic.png" alt="graphic"/>
+          <div id="menu">
+            <ul>
+              <li id="resume-game">Resume</li>
+              <li id="new-game">New Game</li>
+              <li id="time-challenge">Time Challenge</li>
+              <li id="stats">Stats</li>
+              <li id="instructions">Instructions</li>
+              <li id="about">About</li>
+              <li id="sound">Sound:<div class="choice"><span class="on">ON</span><span>OFF</span></div></li>
+            </ul>
+          </div>
+          <div id="messages">
+          </div>
+        </div>
+      </div>
+
+      <div id="game-over-screen" class="overlay">
+        <div class="centering-container">
+          <div id="game-over">GAME OVER</div>
+        </div>
+        <div class="centering-container">
+          <a href="#" class="game-over-button" id="continue-button">Continue</a>
+          <a href="#" class="game-over-button" id="quit-button">Quit</a>
+        </div>
+      </div>
+
+      <div id="about-screen" class="overlay">
+        <div class="text-content">
+          <a href="https://github.com/dmcinnes/dead-valley"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png" alt="Fork me on GitHub"></a>
+          <div class="back" style="right: 200px; position: absolute;">&bull;&nbsp;Back</div>
+          <h2 class="sc">Dead Valley <span id="version">###</span></h2>
+          <p>
+          Created by <a href="http://dougmcinnes.com">Doug McInnes</a> &mdash; <a href="http://dogwatchgames.com">Dogwatch Games</a>
+          </p>
+          <p>
+          Made possible with these fine libraries:
+          </p>
+          <ul>
+            <li><a href="http://jquery.com/">jQuery</a></li>
+            <li><a href="http://requirejs.org/">Requirejs</a></li>
+            <li><a href="http://documentcloud.github.com/underscore/">Underscore.js</a></li>
+            <li><a href="http://www.createjs.com/#!/SoundJS">Soundjs</a></li>
+            <li><a href="http://modernizr.com/">Modernizr</a></li>
+          </ul>
+          <p>
+          Graphics created with <a href="http://www.pixelmator.com/">Pixelmator</a> and <a href="http://itunes.apple.com/us/app/artstudio-for-ipad-draw-paint/id364017607?mt=8">Art Studio for iPad</a>.
+          </p>
+          <p>
+          Audio created with <a href="http://www.bfxr.net/">Bfxr</a> and recorded and edited with <a href="http://audacity.sourceforge.net/">Audacity</a>.
+          </p>
+          <p>
+          Written with <a href="http://www.vim.org">Vim</a>.
+          </p>
+          <p>
+          Thank You Beta Testers!
+          </p>
+          <ul>
+            <li>Giles Bowkett</li>
+            <li>Mark Miller</li>
+            <li>Jeff Seebach</li>
+            <li>Lonzia Shay</li>
+          </ul>
+
+          <a title="HTML5" href="http://www.w3.org/html/logo/"><img id="html5logo" alt="HTML5" src="assets/about/HTML5_Badge_128.png" width="128" height="128"/></a>
+        </div>
+      </div>
+
+      <div id="intro-screen" class="overlay">
+        <div class="centering-container">
+          <div id="intro-text">
+            <p>
+            A week has passed since the outbreak.
+            </p>
+            <p>
+            The last couple of days reports coming from the Emergency Broadcast System described a quarantine zone: a 150 mile radius circle centered on Dead Valley.
+            </p>
+            <p>
+            Centered on your farmhouse.
+            </p>
+            <p>
+            The National Guard is urging any survivors to head for the perimeter.
+            </p>
+            <p>
+            You've been holed up for a week and getting sick of eating beans. The walkers are getting closer ever day. If they figure out you're here the barrier you've slapped together will not hold.
+            </p>
+            <p>
+            Time to make a break for it. Drive 150 miles to escape from the valley!
+            </p>
+            <p id="time-trial-text">
+            You have three days before they cover the entire valley in napalm.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div id="stats-screen" class="overlay">
+        <div class="text-content">
+          <div class="back">&bull;&nbsp;Back</div>
+          <div id="stats-content">
+          </div>
+        </div>
+      </div>
+
+      <div id="help" class="overlay">
+        <div class="text-content">
+          <div class="back">&bull;&nbsp;Back</div>
+
+          <div id="figures">
+            <figure id="fig1">
+            <img src="assets/help/enter_car.png" alt="Enter Car"/>
+            <img src="assets/help/enter_house.png" alt="Enter House"/>
+            <figcaption>Enter/Exit a car or building by pressing E</figcaption>
+            </figure>
+
+            <figure id="fig2">
+            <img src="assets/help/activate_flashlight.png" alt="Activate Flashlight"/>
+            <img src="assets/help/flashlight_usage.png" alt="Enter House"/>
+            <figcaption>Put the flashlight in the inventory hands to activate it</figcaption>
+            </figure>
+
+            <figure id="fig3">
+            <img src="assets/help/activate_glock.png" alt="Activate Glock"/>
+            <img src="assets/help/glock_usage.png" alt="Glock Usage"/>
+            <figcaption>Put weapons in the inventory hands to make them the active weapon</figcaption>
+            </figure>
+
+            <figure id="fig4">
+            <img src="assets/help/fuel_car.png" alt="Fuel Car"/>
+            <img src="assets/help/fuel_gascan.png" alt="Fuel Gascan"/>
+            <figcaption>Touch a gas pump to fuel nearby cars or inventory items</figcaption>
+            </figure>
+
+            <figure id="fig6">
+            <img src="assets/help/siphon.png" alt="siphon"/>
+            <img src="assets/help/siphon_gascan.png" alt="Siphon Gascan"/>
+            <figcaption>Touch a car, activate the siphon then click on nearby cars or inventory items to transfer fuel to them</figcaption>
+            </figure>
+
+            <figure id="fig5">
+            <img src="assets/help/gascan_car.png" alt="Gascan Car"/>
+            <figcaption>Activate the gas can and click on a touching car to fuel it</figcaption>
+            </figure>
+          </div>
+
+          <h4>Controls:</h4>
+          <table>
+            <tr>
+              <td>I</td><td>Toggles the inventory screen.</td>
+            </tr>
+            <tr>
+              <td>E</td><td>Enters/exits buildings and cars.</td>
+            </tr>
+            <tr>
+              <td>P/Esc</td><td>Pauses the game.</td>
+            </tr>
+            <tr>
+              <td>H</td><td>Toggles a car's headlights.</td>
+            </tr>
+            <tr>
+              <td>R</td><td>Reloads your active firearm.</td>
+            </tr>
+            <tr>
+              <td>F</td><td>Toggles the framerate display.</td>
+            </tr>
+            <tr>
+              <td>Space</td><td>Attack with melee weapon.</td>
+            </tr>
+          </table>
+          <ul>
+            <li>Control your character with WASD or the Arrow keys.</li>
+            <li>The mouse button fires any equipped weapon. Aim with the mouse.</li>
+            <li>Right-click any inventory item to activate it.</li>
+          </ul>
+
+          <h4>Cars:</h4>
+          <ul>
+            <li>Cars need fuel to run!</li>
+            <li>A car takes damage by running into things (even Zombies), driving over rough ground (anything except a road), getting shot, or beat up by a melee weapon.</li>
+            <li>When the car is in bad shape the engine will start to smoke, when it's in really bad shape the Check Engine light will flash. If the car takes much more damage it will explode.</li>
+            <li>Exploding cars do damage to nearby objects, Zombies, and you!</li>
+            <li>Damage to cars can knock out their head and taillights if the damage is close to one of those areas, so be careful when driving at night.</li>
+          </ul>
+
+          <h4>Fueling:</h4>
+          <ul>
+            <li>To activate a gas pump walk into it. If it's not broken and has gas your cursor should change into a pump nozzle. Click and hold on a nearby car to fill it (has to be near the pump). Also click and hold on a Gas Can to fill it.</li>
+            <li>To use the gas can right click on it when you're touching the car you want to fill. The cursor will change to a mini gas can. Click on hold on the car to fill it.</li>
+            <li>To use the siphon (rubber tubing) right click on it while touching the car you want to remove gas from. The cursor should turn into a mini rubber tubing. Click and hold on another nearby car or a Gas Can in your inventory to fill it.</li>
+          </ul>
+
+          <h4>Inventory:</h4>
+          <ul>
+            <li>Right click on Inventory items to activate them.</li>
+            <li>Double click on an inventory item in a car or building to transfer them to your inventory.</li>
+            <li>Double click on an inventory item in your inventory to place it in your hands.</li>
+            <li>Drag weapons onto the inventory hands to make them active.</li>
+            <li>Dragging ammo onto firearms reloads them. Press R to reload your active weapon.</li>
+            <li>Right click firearms to eject their ammo.</li>
+            <li>Eating beans heal 1/2 a heart. Cake heals 1 heart.</li>
+            <li>Medkits heal you to full strength.</li>
+            <li>Flashlights only work when placed in one of the inventory hands.</li>
+          </ul>
+
+          <h4>Zombies:</h4>
+          <ul>
+            <li>Zombies damage you if they claw you (duh).</li>
+            <li>Zombies can force you out of a building or car by hitting it enough times (the more Zombies the faster you're forced out!).</li>
+            <li>Zombies are attracted to noise.</li>
+            <li>Some buildings have Zombies in them. When you try to enter they will pop out instead!</li>
+          </ul>
+
+          <h4>Saving:</h4>
+          <ul>
+            <li>The game automatically saves if you quit your browser or close this tab. Next time you load this page select Resume to continue your game.</li>
+          </ul>
+
+          <h4>Tips:</h4>
+          <ul>
+            <li>Fuel is the most important thing in the game. Without fuel you're stuck!</li>
+            <li>Be sure to take every last bullet &mdash; right click on any extra weapons you find to get their ammunition.</li>
+            <li>Store extra gear in your car if there's limited space in your inventory. Be careful! If the car is destroyed your gear is gone.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <br/><br/><br/>
+
+    <div align="center">
+      <a href="https://github.com/dmcinnes/dead-valley">This game was made by dmcinnes on Github. Click here to check it out!</a>
+    </div>
+
+  </body>
+</html>
