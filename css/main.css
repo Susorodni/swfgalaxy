@@ -89,6 +89,11 @@ img {
   left: 0px;
   float: left;
 }
+.star {
+  top: 0px;
+  left: 0px;
+  float: right;
+}
 #category {
   text-align: center;
   font-family: megrim;
