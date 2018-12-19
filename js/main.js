@@ -187,3 +187,12 @@ function supermarioflash() {
 function supermarioflash2() {
         location.href = "supermarioflash2.html";
 };
+function impossiblequiz2() {
+        location.href = "impossiblequiz2.html";
+};
+function rooftopsnipers() {
+        location.href = "games/rooftopsnipers/rooftopsnipers.html";
+};
+function vex() {
+        location.href = "vex.html";
+};
