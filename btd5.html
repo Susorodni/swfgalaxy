@@ -3,7 +3,7 @@
 	<head>
 		<title>SWF Runner</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<link rel="shortcut icon" type="image/x-icon" href="images/bitbotmerry.png" />
+		<link rel="shortcut icon" type="image/x-icon" href="images/bitbot.png" />
 		<style type="text/css" media="screen">
 		html, body { height:100%; background-color: #000000;}
 		body { margin:0; padding:0; overflow:hidden; }
@@ -47,4 +47,28 @@
 			</object>
 		</div>
 	</body>
+	<script>
+	import flash.net.URLRequest;
+import flash.display.Loader;
+import flash.events.Event;
+
+function startLoad() {
+    var mLoader:Loader = new Loader();
+    var mRequest:URLRequest = new URLRequest("games/Bloons-Tower-Defense-5.swf");
+    mLoader.contentLoaderInfo.addEventListener(Event.COMPLETE, onCompleteHandler);
+    mLoader.load(mRequest);
+}
+
+function onCompleteHandler(loadEvent:Event){
+    addChild(loadEvent.currentTarget.content);
+    flashLoaded();
+    ExternalInterface.call("flashLoaded"); // <-- where 'flashloaded' is a js function
+
+}
+
+startLoad();
+function flashLoaded() {
+	alert('Hi are u playin this during free time?');
+}
+	</script>
 </html>

@@ -196,3 +196,12 @@ function rooftopsnipers() {
 function vex() {
         location.href = "vex.html";
 };
+function papaspizzeria() {
+        location.href = "papaspizzeria.html";
+};
+function getawayshootout() {
+        location.href = "games/getaway shootout/getawayshootout.html";
+};
+function qwop() {
+        location.href = "qwop.html";
+};

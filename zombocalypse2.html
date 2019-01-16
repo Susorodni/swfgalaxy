@@ -1,18 +1,53 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-  <head>
-    <title>SWFObject dynamic embed - step 3</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-    <script type="text/javascript" src="swfobject.js"></script>
-
-    <script type="text/javascript">
-        swfobject.embedSWF("games/zombocalypse2.swf", "myContent", "100%", "100%", "9.0.0");
+<!DOCTYPE html >
+<html lang="en" xml:lang="en">
+	<head>
+		<title>SWF Runner</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="shortcut icon" type="image/x-icon" href="images/bitbot.png" />
+		<style type="text/css" media="screen">
+		html, body { height:100%; background-color: #000000;}
+		body { margin:0; padding:0; overflow:hidden; }
+		#flashContent { width:100%; height:100%; }
+		</style>
+	</head>
+	<body>
+		<div id="flashContent">
+			<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="100%" height="100%" id="Title name that will appear on tab" align="middle">
+				<param name="movie" value="games/zombocalypse2.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#000000" />
+				<param name="play" value="true" />
+				<param name="loop" value="true" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="default" />
+				<param name="menu" value="true" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="games/zombocalypse2.swf" width="100%" height="100%">
+					<param name="movie" value="games/zombocalypse2.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#000000" />
+					<param name="play" value="true" />
+					<param name="loop" value="true" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="default" />
+					<param name="menu" value="true" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+		</div>
+	</body>
+  <script>
+    xmlDoc=loadXMLDoc("xml/swf.xml");
     </script>
-
-  </head>
-  <body>
-    <div id="myContent">
-      <p>Alternative content</p>
-    </div>
-  </body>
 </html>
