@@ -205,3 +205,12 @@ function getawayshootout() {
 function qwop() {
         location.href = "qwop.html";
 };
+function ttf8() {
+        location.href = "2048.html"
+}
+function dreamcarracing() {
+        location.href = "dreamcarracing.html";
+};
+function multitask() {
+        location.href = "multitask.html"
+}
