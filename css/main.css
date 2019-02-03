@@ -96,31 +96,86 @@ img {
   color: white;
 }
 .icon-bar {
-    width: 100%;
-    background-color: #555;
-    overflow: auto;
-    bottom: 0;
-    position: fixed;
+  top: 0;
+  left: 0;
+  width: 90px;
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  z-index: 2;
 }
 
 .icon-bar a {
-    float: left;
-    width: 10%;
-    text-align: center;
-    padding: 12px 0;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 36px;
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+  left: 0;
+  height: 10%;
+  transition: all 0.3s ease;
+  background-color: #555;
+  font-size: 36px;
 }
-
 .icon-bar a:hover {
-    background-color: #000;
+  position: relative;
+  left: 50px;
+  background-color: #000;
 }
-
-.active {
-    background-color: #4CAF50;
+.box {
+width: 300px;
+height: 150px;
+position: relative;
+border: 4px solid black;
+}
+.box {
+  image-orientation: 90deg;
+}
+#menutext {
+  color: white;
+  font-size: (10vh/10);
+  position: absolute;
+  z-index: -1;
+}
+#row {
+  display: flex;
+  justify-content: center;
+  align: center;
+}
+#adbox {
+width: 177px;
+height: 818px;
+transform: translateX(975%);
+position: fixed;
+z-index: 2;
+background-image:url("images/adbackground.jpg");
+background-repeat: no-repeat;
+}
+.box a {
+  text-decoration: none;
+}
+.box img {
+  width: 100%;
+  height: 100%;
+}
+.overlay {
+position: absolute;
+bottom: 0;
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5); /* Black see-through */
+color: #f1f1f1;
+width: 100%;
+transition: .3s ease;
+opacity:0;
+color: white;
+font-size: 20px;
+padding: 20px;
+text-align: center;
+width: 265px;
+}
+.box:hover .overlay {
+opacity: 1;
 }
 #newsbox {
+  margin-left: 100px;
   left: 50px;
   padding: 20px;
   right: 50px;
@@ -152,4 +207,8 @@ img {
   background-color: #2ec19f;
   text-align: center;
   float: right;
+}
+#divider {
+  color: #F44336;
+  border: 3px solid #F44336;
 }
