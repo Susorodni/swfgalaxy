@@ -14,383 +14,411 @@ function main() {
   document.getElementById("i3").src = "images/billiards.jpg";
   document.getElementById("t3").innerHTML = "Billiards";
   document.getElementById("b3").style = "display:block";
-  // Chibi Knight
-  document.getElementById("a4").href = "chibiknight.html";
-  document.getElementById("i4").src = "images/chibiknight.jpg";
-  document.getElementById("t4").innerHTML = "Chibi Knight";
+  // Chess
+  document.getElementById("a4").href = "chess.html";
+  document.getElementById("i4").src = "images/chess.PNG";
+  document.getElementById("t4").innerHTML = "Chess";
   document.getElementById("b4").style = "display:block";
-  // Clicker Heroes
-  document.getElementById("a5").href = "clickerheroes.html";
-  document.getElementById("i5").src = "images/clickerheroes.png";
-  document.getElementById("t5").innerHTML = "Clicker Heroes";
+  document.getElementById("na1").href = "chess.html";
+  document.getElementById("ni1").src = "images/chess.PNG";
+  document.getElementById("nt1").innerHTML = "Chess";
+  document.getElementById("nb1").style = "display:block";
+  // Chibi Knight
+  document.getElementById("a5").href = "chibiknight.html";
+  document.getElementById("i5").src = "images/chibiknight.jpg";
+  document.getElementById("t5").innerHTML = "Chibi Knight";
   document.getElementById("b5").style = "display:block";
-  // Dream Car Racing
-  document.getElementById("a6").href = "dreamcarracing.html";
-  document.getElementById("i6").src = "images/dreamcarracing.PNG";
-  document.getElementById("t6").innerHTML = "Dream Car Racing";
+  // Clicker Heroes
+  document.getElementById("a6").href = "clickerheroes.html";
+  document.getElementById("i6").src = "images/clickerheroes.png";
+  document.getElementById("t6").innerHTML = "Clicker Heroes";
   document.getElementById("b6").style = "display:block";
-  // Duck Life 2
-  document.getElementById("a7").href = "ducklife2.html";
-  document.getElementById("i7").src = "images/ducklife2.jpg";
-  document.getElementById("t7").innerHTML = "Duck Life 2";
+  // Dream Car Racing
+  document.getElementById("a7").href = "dreamcarracing.html";
+  document.getElementById("i7").src = "images/dreamcarracing.PNG";
+  document.getElementById("t7").innerHTML = "Dream Car Racing";
   document.getElementById("b7").style = "display:block";
-  // Duck Life 3
-  document.getElementById("a8").href = "ducklife3.html";
-  document.getElementById("i8").src = "images/ducklife3.jpg";
-  document.getElementById("t8").innerHTML = "Duck Life 3";
+  // Duck Life 2
+  document.getElementById("a8").href = "ducklife2.html";
+  document.getElementById("i8").src = "images/ducklife2.jpg";
+  document.getElementById("t8").innerHTML = "Duck Life 2";
   document.getElementById("b8").style = "display:block";
-  // Duck Life 4
-  document.getElementById("a9").href = "ducklife4.html";
-  document.getElementById("i9").src = "images/ducklife-4.jpeg";
-  document.getElementById("t9").innerHTML = "Duck Life 4";
+  // Duck Life 3
+  document.getElementById("a9").href = "ducklife3.html";
+  document.getElementById("i9").src = "images/ducklife3.jpg";
+  document.getElementById("t9").innerHTML = "Duck Life 3";
   document.getElementById("b9").style = "display:block";
-  // Escaping the Prison
-  document.getElementById("a10").href = "escapingtheprison.html";
-  document.getElementById("i10").src = "images/escapingtheprison.jpg";
-  document.getElementById("t10").innerHTML = "Escaping the Prison";
+  // Duck Life 4
+  document.getElementById("a10").href = "ducklife4.html";
+  document.getElementById("i10").src = "images/ducklife-4.jpeg";
+  document.getElementById("t10").innerHTML = "Duck Life 4";
   document.getElementById("b10").style = "display:block";
-  // Flappy Bird
-  document.getElementById("a11").href = "flappybird.html";
-  document.getElementById("i11").src = "images/flappybird.jpg";
-  document.getElementById("t11").innerHTML = "Flappy Bird";
+  // Escaping the Prison
+  document.getElementById("a11").href = "escapingtheprison.html";
+  document.getElementById("i11").src = "images/escapingtheprison.jpg";
+  document.getElementById("t11").innerHTML = "Escaping the Prison";
   document.getElementById("b11").style = "display:block";
-  // Fleeing the Complex
-  document.getElementById("a12").href = "fleeingthecomplex.html";
-  document.getElementById("i12").src = "images/fleeingthecomplex.png";
-  document.getElementById("t12").innerHTML = "Fleeing the Complex";
+  // Flappy Bird
+  document.getElementById("a12").href = "flappybird.html";
+  document.getElementById("i12").src = "images/flappybird.jpg";
+  document.getElementById("t12").innerHTML = "Flappy Bird";
   document.getElementById("b12").style = "display:block";
-  // GBA Emulator
-  document.getElementById("a13").href = "https://neonk.github.io/gba/";
-  document.getElementById("i13").src = "images/gba.jpg";
-  document.getElementById("t13").innerHTML = "GBA Emulator";
+  // Fleeing the Complex
+  document.getElementById("a13").href = "fleeingthecomplex.html";
+  document.getElementById("i13").src = "images/fleeingthecomplex.png";
+  document.getElementById("t13").innerHTML = "Fleeing the Complex";
   document.getElementById("b13").style = "display:block";
-  // Geometry Dash
-  document.getElementById("a14").href = "geometrydash.html";
-  document.getElementById("i14").src = "images/geometrydash.jpg";
-  document.getElementById("t14").innerHTML = "Geometry Dash";
+  // GBA Emulator
+  document.getElementById("a14").href = "https://neonk.github.io/gba/";
+  document.getElementById("i14").src = "images/gba.jpg";
+  document.getElementById("t14").innerHTML = "GBA Emulator";
   document.getElementById("b14").style = "display:block";
+  // Geometry Dash
+  document.getElementById("a15").href = "geometrydash.html";
+  document.getElementById("i15").src = "images/geometrydash.jpg";
+  document.getElementById("t15").innerHTML = "Geometry Dash";
+  document.getElementById("b15").style = "display:block";
   // Getaway Shootout
-  document.getElementById("a15").href = "games/getaway shootout/getawayshootout.html";
-  document.getElementById("i15").src = "images/getawayshootout.PNG";
-  document.getElementById("t15").innerHTML = "Getaway Shootout";
+  document.getElementById("a16").href = "games/getaway shootout/getawayshootout.html";
+  document.getElementById("i16").src = "images/getawayshootout.PNG";
+  document.getElementById("t16").innerHTML = "Getaway Shootout";
   document.getElementById("pa1").href = "games/getaway shootout/getawayshootout.html";
   document.getElementById("pi1").src = "images/getawayshootout.PNG";
   document.getElementById("pt1").innerHTML = "Getaway Shootout";
   document.getElementById("b15").style = "display:block";
   // Get on Top
-  document.getElementById("a16").href = "getontop.html";
-  document.getElementById("i16").src = "images/getontop.jpeg";
-  document.getElementById("t16").innerHTML = "Get On Top";
-  document.getElementById("b16").style = "display:block";
-  // Give Up 2
-  document.getElementById("a17").href = "giveup2.html";
-  document.getElementById("i17").src = "images/giveup2.jpeg";
-  document.getElementById("t17").innerHTML = "Give Up 2";
+  document.getElementById("a17").href = "getontop.html";
+  document.getElementById("i17").src = "images/getontop.jpeg";
+  document.getElementById("t17").innerHTML = "Get On Top";
   document.getElementById("b17").style = "display:block";
-  // GPemu
-  document.getElementById("a18").href = "https://neonk.github.io/gpemu/";
-  document.getElementById("i18").src = "images/gpemu.png";
-  document.getElementById("t18").innerHTML = "GPemu";
+  // Give Up 2
+  document.getElementById("a18").href = "giveup2.html";
+  document.getElementById("i18").src = "images/giveup2.jpeg";
+  document.getElementById("t18").innerHTML = "Give Up 2";
   document.getElementById("b18").style = "display:block";
-  // Gun Mayhem 2
-  document.getElementById("a19").href = "gunmayhem2.html";
-  document.getElementById("i19").src = "images/gunmayhem2.jpg";
-  document.getElementById("t19").innerHTML = "Gun Mayhem";
+  // GPemu
+  document.getElementById("a19").href = "https://neonk.github.io/gpemu/";
+  document.getElementById("i19").src = "images/gpemu.png";
+  document.getElementById("t19").innerHTML = "GPemu";
   document.getElementById("b19").style = "display:block";
-  // Happy Wheels
-  document.getElementById("a20").href = "happywheels.html";
-  document.getElementById("i20").src = "images/happywheels.jpeg";
-  document.getElementById("t20").innerHTML = "Happy Wheels";
+  // Gun Mayhem 2
+  document.getElementById("a20").href = "gunmayhem2.html";
+  document.getElementById("i20").src = "images/gunmayhem2.jpg";
+  document.getElementById("t20").innerHTML = "Gun Mayhem";
   document.getElementById("b20").style = "display:block";
-  // Idle Web Tycoon
-  document.getElementById("t21").innerHTML = "Idle Web Tycoon";
-  document.getElementById("i21").src = "images/idlewebtycoon.PNG";
-  document.getElementById("b21").onclick = function () { idlewebtycoon(); };
-  document.getElementById("a21").href = "idlewebtycoon.html";
+  // Happy Wheels
+  document.getElementById("a21").href = "happywheels.html";
+  document.getElementById("i21").src = "images/happywheels.jpeg";
+  document.getElementById("t21").innerHTML = "Happy Wheels";
   document.getElementById("b21").style = "display:block";
-  document.getElementById("nt1").innerHTML = "Idle Web Tycoon";
-  document.getElementById("ni1").src = "images/idlewebtycoon.PNG";
-  document.getElementById("nb1").onclick = function () { idlewebtycoon(); };
-  document.getElementById("na1").href = "idlewebtycoon.html";
-  document.getElementById("nb1").style = "display:block";
-  // Impossible Quiz
-  document.getElementById("a22").href = "impossiblequiz.html";
-  document.getElementById("i22").src = "images/impossiblequiz.png";
-  document.getElementById("t22").innerHTML = "Impossible Quiz";
+  // Idle Web Tycoon
+  document.getElementById("t22").innerHTML = "Idle Web Tycoon";
+  document.getElementById("i22").src = "images/idlewebtycoon.PNG";
+  document.getElementById("a22").href = "idlewebtycoon.html";
   document.getElementById("b22").style = "display:block";
-  // Impossible Quiz 2
-  document.getElementById("a23").href = "impossiblequiz2.html";
-  document.getElementById("i23").src = "images/impossiblequiz2.PNG";
-  document.getElementById("t23").innerHTML = "Impossible Quiz 2";
+  // Impossible Quiz
+  document.getElementById("a23").href = "impossiblequiz.html";
+  document.getElementById("i23").src = "images/impossiblequiz.png";
+  document.getElementById("t23").innerHTML = "Impossible Quiz";
   document.getElementById("b23").style = "display:block";
-  // Infliterating the Airship
-  document.getElementById("a24").href = "infilteratingtheairship.html";
-  document.getElementById("i24").src = "images/infilteratingtheairship.png";
-  document.getElementById("t24").innerHTML = "Infilterating the Airship";
+  // Impossible Quiz 2
+  document.getElementById("a24").href = "impossiblequiz2.html";
+  document.getElementById("i24").src = "images/impossiblequiz2.PNG";
+  document.getElementById("t24").innerHTML = "Impossible Quiz 2";
   document.getElementById("b24").style = "display:block";
-  // Jacksmith
-  document.getElementById("a25").href = "jacksmith.html";
-  document.getElementById("i25").src = "images/jacksmith.jpeg";
-  document.getElementById("t25").innerHTML = "Jacksmith";
+  // Infliterating the Airship
+  document.getElementById("a25").href = "infilteratingtheairship.html";
+  document.getElementById("i25").src = "images/infilteratingtheairship.png";
+  document.getElementById("t25").innerHTML = "Infilterating the Airship";
   document.getElementById("b25").style = "display:block";
-  // Learn to Fly
-  document.getElementById("a26").href = "learntofly.html";
-  document.getElementById("i26").src = "images/learntofly.jpeg";
-  document.getElementById("t26").innerHTML = "Learn to Fly";
+  // Jacksmith
+  document.getElementById("a26").href = "jacksmith.html";
+  document.getElementById("i26").src = "images/jacksmith.jpeg";
+  document.getElementById("t26").innerHTML = "Jacksmith";
   document.getElementById("b26").style = "display:block";
-  // Learn to Fly 2
-  document.getElementById("a27").href = "learntofly2.html";
-  document.getElementById("i27").src = "images/learntofly2.jpeg";
-  document.getElementById("t27").innerHTML = "Learn to Fly 2";
+  // Learn to Fly
+  document.getElementById("a27").href = "learntofly.html";
+  document.getElementById("i27").src = "images/learntofly.jpeg";
+  document.getElementById("t27").innerHTML = "Learn to Fly";
   document.getElementById("b27").style = "display:block";
-  // Learn to Fly 3
-  document.getElementById("a28").href = "learntofly3.html";
-  document.getElementById("i28").src = "images/learntofly3.jpeg";
-  document.getElementById("t28").innerHTML = "Learn to Fly 3";
+  // Learn to Fly 2
+  document.getElementById("a28").href = "learntofly2.html";
+  document.getElementById("i28").src = "images/learntofly2.jpeg";
+  document.getElementById("t28").innerHTML = "Learn to Fly 2";
   document.getElementById("b28").style = "display:block";
-  // Legend of Zelda
-  document.getElementById("a29").href = "https://neonk.github.io/zelda/www/index.html";
-  document.getElementById("i29").src = "images/legendofzelda.jpeg";
-  document.getElementById("t29").innerHTML = "Legend of Zelda";
+  // Learn to Fly 3
+  document.getElementById("a29").href = "learntofly3.html";
+  document.getElementById("i29").src = "images/learntofly3.jpeg";
+  document.getElementById("t29").innerHTML = "Learn to Fly 3";
   document.getElementById("b29").style = "display:block";
-  // Miragine War
-  document.getElementById("a30").href = "miraginewar.html";
-  document.getElementById("i30").src = "images/miraginewar.png";
-  document.getElementById("t30").innerHTML = "Miragine War";
+  // Legend of Zelda
+  document.getElementById("a30").href = "https://neonk.github.io/zelda/www/index.html";
+  document.getElementById("i30").src = "images/legendofzelda.jpeg";
+  document.getElementById("t30").innerHTML = "Legend of Zelda";
   document.getElementById("b30").style = "display:block";
-  // Multitask
-  document.getElementById("a31").href = "multitask.html";
-  document.getElementById("i31").src = "images/multitask.PNG";
-  document.getElementById("t31").innerHTML = "Multitask";
+  // Miragine War
+  document.getElementById("a31").href = "miraginewar.html";
+  document.getElementById("i31").src = "images/miraginewar.png";
+  document.getElementById("t31").innerHTML = "Miragine War";
   document.getElementById("b31").style = "display:block";
-  // Obey the Game
-  document.getElementById("a32").href = "obeythegame.html";
-  document.getElementById("i32").src = "images/obeythegame.jpg";
-  document.getElementById("t32").innerHTML = "Obey the Game";
+  // Multitask
+  document.getElementById("a32").href = "multitask.html";
+  document.getElementById("i32").src = "images/multitask.PNG";
+  document.getElementById("t32").innerHTML = "Multitask";
   document.getElementById("b32").style = "display:block";
-  // Papa's Bakeria
-  document.getElementById("a33").href = "papasbakeria.html";
-  document.getElementById("i33").src = "images/papasbakeria.jpeg";
-  document.getElementById("t33").innerHTML = "Papas Bakeria";
+  // Obey the Game
+  document.getElementById("a33").href = "obeythegame.html";
+  document.getElementById("i33").src = "images/obeythegame.jpg";
+  document.getElementById("t33").innerHTML = "Obey the Game";
   document.getElementById("b33").style = "display:block";
-  // Papa's Donuteria
-  document.getElementById("a34").href = "papasdonuteria.html";
-  document.getElementById("i34").src = "images/papasdonuteria.jpeg";
-  document.getElementById("t34").innerHTML = "Papa's Donuteria";
+  // Papa's Bakeria
+  document.getElementById("a34").href = "papasbakeria.html";
+  document.getElementById("i34").src = "images/papasbakeria.jpeg";
+  document.getElementById("t34").innerHTML = "Papas Bakeria";
   document.getElementById("b34").style = "display:block";
-  // Papa's Freezeria
-  document.getElementById("a35").href = "papasfreezeria.html";
-  document.getElementById("i35").src = "images/papasfreezeria.jpg";
-  document.getElementById("t35").innerHTML = "Papa's Freezeria";
+  // Papa's Burgeria
+  document.getElementById("a35").href = "papasburgeria.html";
+  document.getElementById("i35").src = "images/papasburgeria.jpg";
+  document.getElementById("t35").innerHTML = "Papas Burgeria";
   document.getElementById("b35").style = "display:block";
-  // Papa's Pizzeria
-  document.getElementById("a36").href = "papaspizzeria.html";
-  document.getElementById("i36").src = "images/papaspizzeria.jpg";
-  document.getElementById("t36").innerHTML = "Papa's Pizzeria";
+  document.getElementById("na2").href = "papasburgeria.html";
+  document.getElementById("ni2").src = "images/papasburgeria.jpg";
+  document.getElementById("nt2").innerHTML = "Papas Burgeria";
+  document.getElementById("nb2").style = "display:block";
+  // Papa's Dogeria
+  document.getElementById("a36").href = "papasdogeria.html";
+  document.getElementById("i36").src = "images/papashotdoggeria.jpg";
+  document.getElementById("t36").innerHTML = "Papas Dogeria";
   document.getElementById("b36").style = "display:block";
-  // Papa's Scooperia
-  document.getElementById("a37").href = "papasscooperia.html";
-  document.getElementById("i37").src = "images/papasscooperia.jpg";
-  document.getElementById("t37").innerHTML = "Papa's Scooperia";
+  document.getElementById("na3").href = "papasdogeria.html";
+  document.getElementById("ni3").src = "images/papashotdoggeria.jpg";
+  document.getElementById("nt3").innerHTML = "Papas Dogeria";
+  document.getElementById("nb3").style = "display:block";
+  // Papa's Donuteria
+  document.getElementById("a37").href = "papasdonuteria.html";
+  document.getElementById("i37").src = "images/papasdonuteria.jpeg";
+  document.getElementById("t37").innerHTML = "Papa's Donuteria";
   document.getElementById("b37").style = "display:block";
-  // Papa's Sushiria
-  document.getElementById("a38").href = "papassushiria.html";
-  document.getElementById("i38").src = "images/papassushiria.jpg";
-  document.getElementById("t38").innerHTML = "Papa's Sushiria";
+  // Papa's Freezeria
+  document.getElementById("a38").href = "papasfreezeria.html";
+  document.getElementById("i38").src = "images/papasfreezeria.jpg";
+  document.getElementById("t38").innerHTML = "Papa's Freezeria";
   document.getElementById("b38").style = "display:block";
-  // Papa's Wingeria
-  document.getElementById("t39").innerHTML = "Papa's Wingeria";
-  document.getElementById("i39").src = "images/papaswingeria.jpg";
-  document.getElementById("b39").onclick = function () { papaswingeria(); };
-  document.getElementById("a39").href = "papaswingeria.html";
-  document.getElementById("b39").style = "display:block"
-  document.getElementById("nt2").innerHTML = "Papa's Wingeria";
-  document.getElementById("ni2").src = "images/papaswingeria.jpg";
-  document.getElementById("nb2").onclick = function () { papaswingeria(); };
-  document.getElementById("na2").href = "papaswingeria.html";
-  document.getElementById("nb2").style = "display:block"
-  // Ping Pong Chaos
-  document.getElementById("a40").href = "games/pingpongchaos/pingpongchaos.html";
-  document.getElementById("i40").src = "images/pingpongchaos.PNG";
-  document.getElementById("t40").innerHTML = "Ping Pong Chaos";
+  // Papa's Pizzeria
+  document.getElementById("a39").href = "papaspizzeria.html";
+  document.getElementById("i39").src = "images/papaspizzeria.jpg";
+  document.getElementById("t39").innerHTML = "Papa's Pizzeria";
+  document.getElementById("b39").style = "display:block";
+  // Papa's Scooperia
+  document.getElementById("a40").href = "papasscooperia.html";
+  document.getElementById("i40").src = "images/papasscooperia.jpg";
+  document.getElementById("t40").innerHTML = "Papa's Scooperia";
   document.getElementById("b40").style = "display:block";
-  // Pokemon Tower Defense
-  document.getElementById("a41").href = "pokemontowerdefense.html";
-  document.getElementById("i41").src = "images/pokemontowerdefense.jpeg";
-  document.getElementById("t41").innerHTML = "Pokemon Tower Defense";
+  // Papa's Sushiria
+  document.getElementById("a41").href = "papassushiria.html";
+  document.getElementById("i41").src = "images/papassushiria.jpg";
+  document.getElementById("t41").innerHTML = "Papa's Sushiria";
   document.getElementById("b41").style = "display:block";
-  // QWOP
-  document.getElementById("a42").href = "qwop.html";
-  document.getElementById("i42").src = "images/qwop.PNG";
-  document.getElementById("t42").innerHTML = "QWOP";
-  document.getElementById("b42").style = "display:block";
-  // Raze 2
-  document.getElementById("a43").href = "raze2.html";
-  document.getElementById("i43").src = "images/raze2.PNG";
-  document.getElementById("t43").innerHTML = "Raze 2";
+  // Papa's Wingeria
+  document.getElementById("t42").innerHTML = "Papa's Wingeria";
+  document.getElementById("i42").src = "images/papaswingeria.jpg";
+  document.getElementById("a42").href = "papaswingeria.html";
+  document.getElementById("b42").style = "display:block"
+  // Ping Pong Chaos
+  document.getElementById("a43").href = "games/pingpongchaos/pingpongchaos.html";
+  document.getElementById("i43").src = "images/pingpongchaos.PNG";
+  document.getElementById("t43").innerHTML = "Ping Pong Chaos";
   document.getElementById("b43").style = "display:block";
-  // Raze 3
-  document.getElementById("a44").href = "raze3.html";
-  document.getElementById("i44").src = "images/raze3.png";
-  document.getElementById("t44").innerHTML = "Raze 3";
+  // Pokemon Tower Defense
+  document.getElementById("a44").href = "pokemontowerdefense.html";
+  document.getElementById("i44").src = "images/pokemontowerdefense.jpeg";
+  document.getElementById("t44").innerHTML = "Pokemon Tower Defense";
   document.getElementById("b44").style = "display:block";
+  // QWOP
+  document.getElementById("a45").href = "qwop.html";
+  document.getElementById("i45").src = "images/qwop.PNG";
+  document.getElementById("t45").innerHTML = "QWOP";
+  document.getElementById("b45").style = "display:block";
+  // Raze 2
+  document.getElementById("a46").href = "raze2.html";
+  document.getElementById("i46").src = "images/raze2.PNG";
+  document.getElementById("t46").innerHTML = "Raze 2";
+  document.getElementById("b46").style = "display:block";
+  // Raze 3
+  document.getElementById("a47").href = "raze3.html";
+  document.getElementById("i47").src = "images/raze3.png";
+  document.getElementById("t47").innerHTML = "Raze 3";
+  document.getElementById("b47").style = "display:block";
   // Rooftop Snipers
-  document.getElementById("a45").href = "games/rooftopsnipers/rooftopsnipers.html";
-  document.getElementById("i45").src = "images/rooftopsnipers.PNG";
-  document.getElementById("t45").innerHTML = "Rooftop Snipers";
+  document.getElementById("a48").href = "games/rooftopsnipers/rooftopsnipers.html";
+  document.getElementById("i48").src = "images/rooftopsnipers.PNG";
+  document.getElementById("t48").innerHTML = "Rooftop Snipers";
   document.getElementById("pa2").href = "games/rooftopsnipers/rooftopsnipers.html";
   document.getElementById("pi2").src = "images/rooftopsnipers.PNG";
   document.getElementById("pt2").innerHTML = "Rooftop Snipers";
-  document.getElementById("b45").style = "display:block";
-  // Run 3
-  document.getElementById("a46").href = "run3.html";
-  document.getElementById("i46").src = "images/run3.jpg";
-  document.getElementById("t46").innerHTML = "Run 3";
-  document.getElementById("b46").style = "display:block";
-  // Sports Heads Basketball Championship
-  document.getElementById("a47").href = "sportsheadsbasketballchampionship.html";
-  document.getElementById("i47").src = "images/shbc.jpeg";
-  document.getElementById("t47").innerHTML = "Sports Heads Basketball Championship";
-  document.getElementById("b47").style = "display:block";
-  // Sports Heads Soccer
-  document.getElementById("a48").href = "sportsheadssoccer.html";
-  document.getElementById("i48").src = "images/sportsheadssoccer.jpg";
-  document.getElementById("t48").innerHTML = "Sports Heads Soccer";
   document.getElementById("b48").style = "display:block";
-  // Sports Heads Tennis
-  document.getElementById("a49").href = "sportsheadstennis.html";
-  document.getElementById("i49").src = "images/sportsheadstennis.jpg";
-  document.getElementById("t49").innerHTML = "Sports Heads Tennis";
+  // Run 3
+  document.getElementById("a49").href = "run3.html";
+  document.getElementById("i49").src = "images/run3.jpg";
+  document.getElementById("t49").innerHTML = "Run 3";
   document.getElementById("b49").style = "display:block";
-  // Sports Heads Volleyball
-  document.getElementById("a50").href = "sportsheadsvolleyball.html";
-  document.getElementById("i50").src = "images/sportsheadsvolleyball.jpg";
-  document.getElementById("t50").innerHTML = "Sports Heads Volleyball";
+  // Sports Heads Basketball Championship
+  document.getElementById("a50").href = "sportsheadsbasketballchampionship.html";
+  document.getElementById("i50").src = "images/shbc.jpeg";
+  document.getElementById("t50").innerHTML = "Sports Heads Basketball Championship";
   document.getElementById("b50").style = "display:block";
-  // Stealing the Diamond
-  document.getElementById("a51").href = "stealingthediamond.html";
-  document.getElementById("i51").src = "images/stealingthediamond.jpg";
-  document.getElementById("t51").innerHTML = "Stealing the Diamond";
+  // Sports Heads Soccer
+  document.getElementById("a51").href = "sportsheadssoccer.html";
+  document.getElementById("i51").src = "images/sportsheadssoccer.jpg";
+  document.getElementById("t51").innerHTML = "Sports Heads Soccer";
   document.getElementById("b51").style = "display:block";
-  // Stick RPG
-  document.getElementById("a52").href = "stickrpg.html";
-  document.getElementById("i52").src = "images/stickrpg.jpeg";
-  document.getElementById("t52").innerHTML = "Stick RPG";
+  // Sports Heads Tennis
+  document.getElementById("a52").href = "sportsheadstennis.html";
+  document.getElementById("i52").src = "images/sportsheadstennis.jpg";
+  document.getElementById("t52").innerHTML = "Sports Heads Tennis";
   document.getElementById("b52").style = "display:block";
-  // Stick War
-  document.getElementById("a53").href = "stickwar.html";
-  document.getElementById("i53").src = "images/stickwar.png";
-  document.getElementById("t53").innerHTML = "Stick War";
+  // Sports Heads Volleyball
+  document.getElementById("a53").href = "sportsheadsvolleyball.html";
+  document.getElementById("i53").src = "images/sportsheadsvolleyball.jpg";
+  document.getElementById("t53").innerHTML = "Sports Heads Volleyball";
   document.getElementById("b53").style = "display:block";
-  // Stick War 2
-  document.getElementById("a54").href = "stickwar2.html";
-  document.getElementById("i54").src = "images/stickwar2.jpg";
-  document.getElementById("t54").innerHTML = "Stick War 2";
+  // Stealing the Diamond
+  document.getElementById("a54").href = "stealingthediamond.html";
+  document.getElementById("i54").src = "images/stealingthediamond.jpg";
+  document.getElementById("t54").innerHTML = "Stealing the Diamond";
   document.getElementById("b54").style = "display:block";
-  // Strike Force Heroes
-  document.getElementById("a55").href = "str1keforceheroes.html";
-  document.getElementById("i55").src = "images/str1keforceheroes.jpeg";
-  document.getElementById("t55").innerHTML = "Strike Force Heroes";
+  // Stick RPG
+  document.getElementById("a55").href = "stickrpg.html";
+  document.getElementById("i55").src = "images/stickrpg.jpeg";
+  document.getElementById("t55").innerHTML = "Stick RPG";
   document.getElementById("b55").style = "display:block";
-  // Strike Force Heroes 2
-  document.getElementById("a56").href = "str1keforceheroes2.html";
-  document.getElementById("i56").src = "images/str1keforceheroes2.jpeg";
-  document.getElementById("t56").innerHTML = "Strike Force Heroes 2";
+  // Stick War
+  document.getElementById("a56").href = "stickwar.html";
+  document.getElementById("i56").src = "images/stickwar.png";
+  document.getElementById("t56").innerHTML = "Stick War";
   document.getElementById("b56").style = "display:block";
-  // Strike Force Heroes 3
-  document.getElementById("a57").href = "str1keforceheroes3.html";
-  document.getElementById("i57").src = "images/str1keforceheroes3.png";
-  document.getElementById("t57").innerHTML = "Strike Force Heroes 3";
+  // Stick War 2
+  document.getElementById("a57").href = "stickwar2.html";
+  document.getElementById("i57").src = "images/stickwar2.jpg";
+  document.getElementById("t57").innerHTML = "Stick War 2";
   document.getElementById("b57").style = "display:block";
-  // Superfighters
-  document.getElementById("a58").href = "Superfighters.html";
-  document.getElementById("i58").src = "images/superfighters.jpg";
-  document.getElementById("t58").innerHTML = "Superfighters";
+  // Strike Force Heroes
+  document.getElementById("a58").href = "str1keforceheroes.html";
+  document.getElementById("i58").src = "images/str1keforceheroes.jpeg";
+  document.getElementById("t58").innerHTML = "Strike Force Heroes";
   document.getElementById("b58").style = "display:block";
+  // Strike Force Heroes 2
+  document.getElementById("a59").href = "str1keforceheroes2.html";
+  document.getElementById("i59").src = "images/str1keforceheroes2.jpeg";
+  document.getElementById("t59").innerHTML = "Strike Force Heroes 2";
+  document.getElementById("b59").style = "display:block";
+  // Strike Force Heroes 3
+  document.getElementById("a60").href = "str1keforceheroes3.html";
+  document.getElementById("i60").src = "images/str1keforceheroes3.png";
+  document.getElementById("t60").innerHTML = "Strike Force Heroes 3";
+  document.getElementById("b60").style = "display:block";
+  // Superfighters
+  document.getElementById("a61").href = "Superfighters.html";
+  document.getElementById("i61").src = "images/superfighters.jpg";
+  document.getElementById("t61").innerHTML = "Superfighters";
+  document.getElementById("b61").style = "display:block";
   // Superfighters Ultimate
-  document.getElementById("a59").href = "superfightersultimate.html";
-  document.getElementById("i59").src = "images/superfightersultimate.jpg";
-  document.getElementById("t59").innerHTML = "Superfighters Ultimate";
+  document.getElementById("a62").href = "superfightersultimate.html";
+  document.getElementById("i62").src = "images/superfightersultimate.jpg";
+  document.getElementById("t62").innerHTML = "Superfighters Ultimate";
   document.getElementById("pa3").href = "superfightersultimate.html";
   document.getElementById("pi3").src = "images/superfightersultimate.jpg";
   document.getElementById("pt3").innerHTML = "Superfighters Ultimate";
-  document.getElementById("b57").style = "display:block";
-  // Super Mario Flash
-  document.getElementById("a60").href = "supermarioflash.html";
-  document.getElementById("i60").src = "images/supermarioflash.jpg";
-  document.getElementById("t60").innerHTML = "Super Mario Flash";
-  document.getElementById("b60").style = "display:block";
-  // Super Mario Flash 2
-  document.getElementById("a61").href = "supermarioflash2.html";
-  document.getElementById("i61").src = "images/supermarioflash2.jpg";
-  document.getElementById("t61").innerHTML = "Super Mario Flash 2";
-  document.getElementById("b61").style = "display:block";
-  // Super Smash Flash
-  document.getElementById("a62").href = "supersmashflash.html";
-  document.getElementById("i62").src = "images/supersmashflash.jpeg";
-  document.getElementById("t62").innerHTML = "Super Smash Flash";
   document.getElementById("b62").style = "display:block";
-  // Swords and Sandals 2
-  document.getElementById("a63").href = "swordsandsandals2.html";
-  document.getElementById("i63").src = "images/swordsandsandals2.jpg";
-  document.getElementById("t63").innerHTML = "Swords and Sandals 2";
+  // Super Mario 63
+  document.getElementById("a63").href = "supermario63.html";
+  document.getElementById("i63").src = "images/supermario63.PNG";
+  document.getElementById("t63").innerHTML = "Super Mario 63";
   document.getElementById("b63").style = "display:block";
-  // Swords and Souls
-  document.getElementById("a64").href = "swordsandsouls.html";
-  document.getElementById("i64").src = "images/swordsandsouls.jpg";
-  document.getElementById("t64").innerHTML = "Swords and Souls";
+  document.getElementById("na4").href = "supermario63.html";
+  document.getElementById("ni4").src = "images/supermario63.PNG";
+  document.getElementById("nt4").innerHTML = "Super Mario 63";
+  document.getElementById("nb4").style = "display:block";
+  // Super Mario Flash
+  document.getElementById("a64").href = "supermarioflash.html";
+  document.getElementById("i64").src = "images/supermarioflash.jpg";
+  document.getElementById("t64").innerHTML = "Super Mario Flash";
   document.getElementById("b64").style = "display:block";
-  // Tank Trouble
-  document.getElementById("a65").href = "tanktrouble.html";
-  document.getElementById("i65").src = "images/tanktrouble.jpeg";
-  document.getElementById("t65").innerHTML = "Tank Trouble";
+  // Super Mario Flash 2
+  document.getElementById("a65").href = "supermarioflash2.html";
+  document.getElementById("i65").src = "images/supermarioflash2.jpg";
+  document.getElementById("t65").innerHTML = "Super Mario Flash 2";
   document.getElementById("b65").style = "display:block";
-  // Territory War
-  document.getElementById("a66").href = "territorywar.html";
-  document.getElementById("i66").src = "images/territorywar.jpg";
-  document.getElementById("t66").innerHTML = "Territory War";
+  // Super Smash Flash
+  document.getElementById("a66").href = "supersmashflash.html";
+  document.getElementById("i66").src = "images/supersmashflash.jpeg";
+  document.getElementById("t66").innerHTML = "Super Smash Flash";
   document.getElementById("b66").style = "display:block";
-  // Tetris
-  document.getElementById("a67").href = "tetris.html";
-  document.getElementById("i67").src = "images/tetris.PNG";
-  document.getElementById("t67").innerHTML = "Tetris";
+  // Swords and Sandals 2
+  document.getElementById("a67").href = "swordsandsandals2.html";
+  document.getElementById("i67").src = "images/swordsandsandals2.jpg";
+  document.getElementById("t67").innerHTML = "Swords and Sandals 2";
   document.getElementById("b67").style = "display:block";
-  // The Last Stand Union City
-  document.getElementById("a68").href = "thelaststandunion.html";
-  document.getElementById("i68").src = "images/thelaststandunioncity.jpg";
-  document.getElementById("t68").innerHTML = "The Last Stand Union";
+  // Swords and Souls
+  document.getElementById("a68").href = "swordsandsouls.html";
+  document.getElementById("i68").src = "images/swordsandsouls.jpg";
+  document.getElementById("t68").innerHTML = "Swords and Souls";
   document.getElementById("b68").style = "display:block";
-  // Theme Hotel
-  document.getElementById("a69").href = "themehotel.html";
-  document.getElementById("i69").src = "images/themehotel.jpg";
-  document.getElementById("t69").innerHTML = "Theme Hotel";
+  // Tank Trouble
+  document.getElementById("a69").href = "tanktrouble.html";
+  document.getElementById("i69").src = "images/tanktrouble.jpeg";
+  document.getElementById("t69").innerHTML = "Tank Trouble";
   document.getElementById("b69").style = "display:block";
-  // Unfair Mario
-  document.getElementById("a70").href = "unfairmario.html";
-  document.getElementById("i70").src = "images/unfairmario.png";
-  document.getElementById("t70").innerHTML = "Unfair Mario";
+  // Territory War
+  document.getElementById("a70").href = "territorywar.html";
+  document.getElementById("i70").src = "images/territorywar.jpg";
+  document.getElementById("t70").innerHTML = "Territory War";
   document.getElementById("b70").style = "display:block";
-  // Uno
-  document.getElementById("t71").innerHTML = "Uno";
-  document.getElementById("i71").src = "images/uno.PNG";
-  document.getElementById("b71").onclick = function () { uno(); };
-  document.getElementById("a71").href = "uno.html";
+  // Tetris
+  document.getElementById("a71").href = "tetris.html";
+  document.getElementById("i71").src = "images/tetris.PNG";
+  document.getElementById("t71").innerHTML = "Tetris";
   document.getElementById("b71").style = "display:block";
-  document.getElementById("nt3").innerHTML = "Uno";
-  document.getElementById("ni3").src = "images/uno.PNG";
-  document.getElementById("nb3").onclick = function () { uno(); };
-  document.getElementById("na3").href = "uno.html";
-  document.getElementById("nb3").style = "display:block";
-  // Vex
-  document.getElementById("a72").href = "vex.html";
-  document.getElementById("i72").src = "images/vex.PNG";
-  document.getElementById("t72").innerHTML = "Vex";
+  // The Flood Runner 2
+  document.getElementById("a72").href = "thefloodrunner2.html";
+  document.getElementById("i72").src = "images/thefloodrunner2.PNG";
+  document.getElementById("t72").innerHTML = "The Flood Runner 2";
   document.getElementById("b72").style = "display:block";
-  // Zombocalypse
-  document.getElementById("a73").href = "zombocalyps3.html";
-  document.getElementById("i73").src = "images/zombocalyps3.jpeg";
-  document.getElementById("t73").innerHTML = "Zombocalypse";
+  document.getElementById("na5").href = "thefloodrunner2.html";
+  document.getElementById("ni5").src = "images/thefloodrunner2.PNG";
+  document.getElementById("nt5").innerHTML = "The Flood Runner 2";
+  document.getElementById("nb5").style = "display:block";
+  // The Last Stand Union City
+  document.getElementById("a73").href = "thelaststandunion.html";
+  document.getElementById("i73").src = "images/thelaststandunioncity.jpg";
+  document.getElementById("t73").innerHTML = "The Last Stand Union";
   document.getElementById("b73").style = "display:block";
+  // Theme Hotel
+  document.getElementById("a74").href = "themehotel.html";
+  document.getElementById("i74").src = "images/themehotel.jpg";
+  document.getElementById("t74").innerHTML = "Theme Hotel";
+  document.getElementById("b74").style = "display:block";
+  // Unfair Mario
+  document.getElementById("a75").href = "unfairmario.html";
+  document.getElementById("i75").src = "images/unfairmario.png";
+  document.getElementById("t75").innerHTML = "Unfair Mario";
+  document.getElementById("b75").style = "display:block";
+  // Uno
+  document.getElementById("t76").innerHTML = "Uno";
+  document.getElementById("i76").src = "images/uno.PNG";
+  document.getElementById("b76").onclick = function () { uno(); };
+  document.getElementById("a76").href = "uno.html";
+  document.getElementById("b76").style = "display:block";
+  // Vex
+  document.getElementById("a77").href = "vex.html";
+  document.getElementById("i77").src = "images/vex.PNG";
+  document.getElementById("t77").innerHTML = "Vex";
+  document.getElementById("b77").style = "display:block";
+  // Zombocalypse
+  document.getElementById("a78").href = "zombocalyps3.html";
+  document.getElementById("i78").src = "images/zombocalyps3.jpeg";
+  document.getElementById("t78").innerHTML = "Zombocalypse";
+  document.getElementById("b78").style = "display:block";
 };
 function strategy() {
   // BTD5
