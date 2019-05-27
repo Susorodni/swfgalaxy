@@ -331,13 +331,14 @@ function main() {
   document.getElementById("i61").src = "images/superfighters.jpg";
   document.getElementById("t61").innerHTML = "Superfighters";
   document.getElementById("b61").style = "display:block";
+  document.getElementById("pa3").href = "superfighters.html";
+  document.getElementById("pi3").src = "images/superfighter.jpg";
+  document.getElementById("pt3").innerHTML = "Superfighters";
   // Superfighters Ultimate
   document.getElementById("a62").href = "superfightersultimate.html";
   document.getElementById("i62").src = "images/superfightersultimate.jpg";
   document.getElementById("t62").innerHTML = "Superfighters Ultimate";
-  document.getElementById("pa3").href = "superfightersultimate.html";
-  document.getElementById("pi3").src = "images/superfightersultimate.jpg";
-  document.getElementById("pt3").innerHTML = "Superfighters Ultimate";
+
   document.getElementById("b62").style = "display:block";
   // Super Mario 63
   document.getElementById("a63").href = "supermario63.html";
