@@ -332,7 +332,7 @@ function main() {
   document.getElementById("t61").innerHTML = "Superfighters";
   document.getElementById("b61").style = "display:block";
   document.getElementById("pa3").href = "superfighters.html";
-  document.getElementById("pi3").src = "images/superfighter.jpg";
+  document.getElementById("pi3").src = "images/superfighters.jpg";
   document.getElementById("pt3").innerHTML = "Superfighters";
   // Superfighters Ultimate
   document.getElementById("a62").href = "superfightersultimate.html";
