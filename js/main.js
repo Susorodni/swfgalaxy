@@ -318,7 +318,7 @@ function main() {
   document.getElementById("t60").innerHTML = "Strike Force Heroes 3";
   document.getElementById("b60").style = "display:block";
   // Superfighters
-  document.getElementById("a61").href = "Superfighters.html";
+  document.getElementById("a61").href = "superfighters.html";
   document.getElementById("i61").src = "images/superfighters.jpg";
   document.getElementById("t61").innerHTML = "Superfighters";
   document.getElementById("b61").style = "display:block";
