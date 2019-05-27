@@ -100,7 +100,6 @@ img {
   left: 0;
   width: 90px;
   height: 80%;
-  background-color: black;
   position: fixed;
   z-index: 2;
 }
@@ -114,6 +113,7 @@ img {
   transition: all 0.3s ease;
   background-color: #555;
   font-size: 36px;
+
 }
 .icon-bar a:hover {
   position: relative;
