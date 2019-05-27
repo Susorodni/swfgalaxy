@@ -131,7 +131,7 @@ border: 4px solid black;
 }
 #menutext {
   color: white;
-  font-size: (10vh/10);
+  font-size: 20px;
   position: absolute;
   z-index: -1;
 }
