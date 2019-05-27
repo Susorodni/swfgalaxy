@@ -1,3 +1,5 @@
+//Really basic code that just adds 1 into the cookie
+
 function setCookie(cname, cvalue, exdays) {
   var d = new Date();
   d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
@@ -28,5 +30,6 @@ if (coins == null){
   setTimeout(function(){
     coins += 1;
     setCookie("coins", coins, 999999999999999);
+    alert(coins);
   }, 60000);
 }
