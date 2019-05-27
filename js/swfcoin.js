@@ -30,6 +30,5 @@ if (coins == null){
   setTimeout(function(){
     coins += 1;
     setCookie("coins", coins, 999999999999999);
-    alert(coins);
   }, 60000);
 }
