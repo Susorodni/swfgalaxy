@@ -16,11 +16,11 @@ function main() {
   document.getElementById("b3").style = "display:block";
   // Chess
   document.getElementById("a4").href = "chess.html";
-  document.getElementById("i4").src = "images/chess.PNG";
+  document.getElementById("i4").src = "images/chess.jpeg";
   document.getElementById("t4").innerHTML = "Chess";
   document.getElementById("b4").style = "display:block";
   document.getElementById("na1").href = "chess.html";
-  document.getElementById("ni1").src = "images/chess.PNG";
+  document.getElementById("ni1").src = "images/chess.jpeg";
   document.getElementById("nt1").innerHTML = "Chess";
   document.getElementById("nb1").style = "display:block";
   // Chibi Knight
@@ -96,6 +96,15 @@ function main() {
   document.getElementById("i18").src = "images/giveup2.jpeg";
   document.getElementById("t18").innerHTML = "Give Up 2";
   document.getElementById("b18").style = "display:block";
+  document.getElementById("a18").href = "giveup2.html";
+  document.getElementById("i18").src = "images/giveup2.jpeg";
+  document.getElementById("t18").innerHTML = "Give Up 2";
+  document.getElementById("b18").style = "display:block";
+  //Give Up Robot 2
+  document.getElementById("na4").href = "giveuprobot2.html";
+  document.getElementById("ni4").src = "images/giveuprobot2.jpeg";
+  document.getElementById("nt4").innerHTML = "Give Up Robot 2";
+  document.getElementById("nb4").style = "display:block";
   // GPemu
   document.getElementById("a19").href = "https://neonk.github.io/gpemu/";
   document.getElementById("i19").src = "images/gpemu.png";
@@ -335,10 +344,6 @@ function main() {
   document.getElementById("i63").src = "images/supermario63.PNG";
   document.getElementById("t63").innerHTML = "Super Mario 63";
   document.getElementById("b63").style = "display:block";
-  document.getElementById("na4").href = "supermario63.html";
-  document.getElementById("ni4").src = "images/supermario63.PNG";
-  document.getElementById("nt4").innerHTML = "Super Mario 63";
-  document.getElementById("nb4").style = "display:block";
   // Super Mario Flash
   document.getElementById("a64").href = "supermarioflash.html";
   document.getElementById("i64").src = "images/supermarioflash.jpg";
