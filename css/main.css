@@ -100,7 +100,6 @@ img {
   left: 0;
   width: 90px;
   height: 80%;
-  background-color: black;
   position: fixed;
   z-index: 2;
 }
@@ -114,11 +113,16 @@ img {
   transition: all 0.3s ease;
   background-color: #555;
   font-size: 36px;
+
 }
-.icon-bar a:hover {
+#image:hover {
   position: relative;
   left: 50px;
   background-color: #000;
+}
+
+#darkMode {
+  cursor: pointer;
 }
 .box {
 width: 300px;
@@ -131,7 +135,7 @@ border: 4px solid black;
 }
 #menutext {
   color: white;
-  font-size: (10vh/10);
+  font-size: 20px;
   position: absolute;
   z-index: -1;
 }
