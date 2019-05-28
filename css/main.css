@@ -115,10 +115,14 @@ img {
   font-size: 36px;
 
 }
-.icon-bar a:hover {
+#image:hover {
   position: relative;
   left: 50px;
   background-color: #000;
+}
+
+#darkMode {
+  cursor: pointer;
 }
 .box {
 width: 300px;
