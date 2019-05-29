@@ -19,8 +19,8 @@ for(var i = 0; i < list.length; i++){
 
   link.href = "images/"+list[i].replace(/ /g,'');
   link.target = "_blank";
-
-  image.setAttribute("src", "images/"+list[i].replace(/ /g,'')+".jpg");
+  var imageLst = list[i].replace(/ /g,'');
+  image.setAttribute("src", "images/"+imageLst+".jpg");
   image.alt = list[i];
 
   overlayDiv.class = "overlay"
