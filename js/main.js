@@ -19,7 +19,7 @@ for(var i = 0; i < list.length; i++){
 
   link.href = "images/"+list[i].replace(/ /g,'');
   link.target = "_blank";
-  var imageLst = list[i].replace(/ /g,'');
+  var imageLst = list[i].replace(/\s/g, "")
   image.setAttribute("src", "images/"+imageLst+".jpg");
   image.alt = list[i];
 
