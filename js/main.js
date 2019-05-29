@@ -17,10 +17,10 @@ for(var i = 0; i < list.length; i++){
     div++;
   }
 
-  link.href = list[i].replace(/ /g,'')+".html";
+  link.href = "images/"+list[i].replace(/ /g,'');
   link.target = "_blank";
 
-  image.setAttribute("src", "images/"+list[i].replace(/ /g,'')+".html");
+  image.setAttribute("src", "images/"+list[i].replace(/ /g,'')+".jpg");
   image.alt = list[i];
 
   overlayDiv.class = "overlay"
