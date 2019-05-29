@@ -13,9 +13,9 @@ for(var i = 0; i < list.length; i++){
   var image = document.createElement('img');
 
 
-  if(i%5 == 0 && i !== 0){
+  //if(i%5 == 0 && i !== 0){
     div++;
-  }
+  //}
 
   link.href = "images/"+list[i].replace(/ /g,'');
   link.target = "_blank";
@@ -39,7 +39,7 @@ for(var i = 0; i < list.length; i++){
 
 
 
-  document.getElementById(div.toString()).appendChild(box);
+  document.getElementById('center').appendChild(box);
 
 
 }
