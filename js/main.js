@@ -23,7 +23,7 @@ for(var i = 0; i < list.length; i++){
   image.setAttribute("src", "images/"+imageLst+".jpg");
   image.alt = list[i];
 
-  overlayDiv.class = "overlay"
+  overlayDiv.setAttribute('class', "overlay");
   overlayDiv.innerHTML = list[i].toUpperCase();
 
   link.appendChild(image);
@@ -32,7 +32,7 @@ for(var i = 0; i < list.length; i++){
 
 
   box.setAttribute('class', 'box');
-  box.style = "display:block";
+  box.setAttribute('style', "display:block");
   box.appendChild(link);
 
 
