@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<script src="js/swfcoin.js"></script>
+
+<html>
+  <head>
+    <title>SWF Runner</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="images/bitbot.png" />
+  </head>
+  <body>
+    <div class="icon-bar">
+         <p id="menutext">Home</p>
+         <a style="background-color: #4CAF50;" href="index.html"><img src="images/home.png"></a>
+         <p id="menutext">Memes</p>
+         <a href="http://memes.swfrunner.com"><img src="images/memes.png"></a>
+         <p id="menutext">News</p>
+         <a href="news.html"><img src="images/news.png"></a>
+         <p id="menutext">Strat<br>egy</p>
+         <a onclick="strategy()"><img src="images/strategy.png" onclick="strategy()"></a>
+         <p id="menutext">Fight<br>ing</p>
+         <a onclick="fighting()"><img src="images/fighting.png" onclick="fighting()"></a>
+         <p id="menutext">Action</p>
+         <a><img src="images/action.png" onclick="action()"></a>
+         <p id="menutext">FAQ</p>
+         <a href="faq.html"><img src="images/faq.png"></a>
+         <p id="menutext">Feed<br>back</p>
+         <a href="https://1drv.ms/xs/s!Aoucxa7MxhZQlF69eaKLiT2-ODK1?wdFormId=%7BF2377BAB%2D9CF9%2D473B%2D93B7%2DD44A5A3CC583%7D"><img src="images/feedback.png"></a>
+        </div>
+</div>
+    <center>
+        <img id="title" src="images/logo_transparent.png">
+        <h3 id="category">Recently Added</h3>
+        <div id="row">
+                <div class="box" id="nb1"><a id="na1"><img id="ni1"><div id="nt1" class="overlay"></div></a></div>
+                <div class="box" id="nb2"><a id="na2"><img id="ni2"><div id="nt2" class="overlay"></div></a></div>
+                <div class="box" id="nb3"><a id="na3"><img id="ni3"><div id="nt3" class="overlay"></div></a></div>
+                <div class="box" id="nb4"><a id="na4"><img id="ni4"><div id="nt4" class="overlay"></div></a></div>
+                <div class="box" id="nb5"><a id="na5"><img id="ni5"><div id="nt5" class="overlay"></div></a></div>
+              </div>
+        <hr id="divider">
+        <h3 id="category">Popular</h3>
+        <div id="row">
+                <div class="box" id="pb1"><a id="pa1"><img id="pi1"><div id="pt1" class="overlay"></div></a></div>
+                <div class="box" id="pb2"><a id="pa2"><img id="pi2"><div id="pt2" class="overlay"></div></a></div>
+                <div class="box" id="pb3"><a id="pa3"><img id="pi3"><div id="pt3" class="overlay"></div></a></div>
+              </div>
+        <hr id="divider">
+        <h3 id="category">All Games</h3>
+        <div id="row">
+                <div class="box" id="b1"><a id="a1"><img id="i1"><div id="t1" class="overlay"></div></a></div>
+                <div class="box" id="b2"><a id="a2"><img id="i2"><div id="t2" class="overlay"></div></a></div>
+                <div class="box" id="b3"><a id="a3"><img id="i3"><div id="t3" class="overlay"></div></a></div>
+                <div class="box" id="b4"><a id="a4"><img id="i4"><div id="t4" class="overlay"></div></a></div>
+                <div class="box" id="b5"><a id="a5"><img id="i5"><div id="t5" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b6"><a id="a6"><img id="i6"><div id="t6" class="overlay"></div></a></div>
+                <div class="box" id="b7"><a id="a7"><img id="i7"><div id="t7" class="overlay"></div></a></div>
+                <div class="box" id="b8"><a id="a8"><img id="i8"><div id="t8" class="overlay"></div></a></div>
+                <div class="box" id="b9"><a id="a9"><img id="i9"><div id="t9" class="overlay"></div></a></div>
+                <div class="box" id="b10"><a id="a10"><img id="i10"><div id="t10" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b11"><a id="a11"><img id="i11"><div id="t11" class="overlay"></div></a></div>
+                <div class="box" id="b12"><a id="a12"><img id="i12"><div id="t12" class="overlay"></div></a></div>
+                <div class="box" id="b13"><a id="a13"><img id="i13"><div id="t13" class="overlay"></div></a></div>
+                <div class="box" id="b14"><a id="a14"><img id="i14"><div id="t14" class="overlay"></div></a></div>
+                <div class="box" id="b15"><a id="a15"><img id="i15"><div id="t15" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b16"><a id="a16"><img id="i16"><div id="t16" class="overlay"></div></a></div>
+                <div class="box" id="b17"><a id="a17"><img id="i17"><div id="t17" class="overlay"></div></a></div>
+                <div class="box" id="b18"><a id="a18"><img id="i18"><div id="t18" class="overlay"></div></a></div>
+                <div class="box" id="b19"><a id="a19"><img id="i19"><div id="t19" class="overlay"></div></a></div>
+                <div class="box" id="b20"><a id="a20"><img id="i20"><div id="t20" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b21"><a id="a21"><img id="i21"><div id="t21" class="overlay"></div></a></div>
+                <div class="box" id="b22"><a id="a22"><img id="i22"><div id="t22" class="overlay"></div></a></div>
+                <div class="box" id="b23"><a id="a23"><img id="i23"><div id="t23" class="overlay"></div></a></div>
+                <div class="box" id="b24"><a id="a24"><img id="i24"><div id="t24" class="overlay"></div></a></div>
+                <div class="box" id="b25"><a id="a25"><img id="i25"><div id="t25" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b26"><a id="a26"><img id="i26"><div id="t26" class="overlay"></div></a></div>
+                <div class="box" id="b27"><a id="a27"><img id="i27"><div id="t27" class="overlay"></div></a></div>
+                <div class="box" id="b28"><a id="a28"><img id="i28"><div id="t28" class="overlay"></div></a></div>
+                <div class="box" id="b29"><a id="a29"><img id="i29"><div id="t29" class="overlay"></div></a></div>
+                <div class="box" id="b30"><a id="a30"><img id="i30"><div id="t30" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b31"><a id="a31"><img id="i31"><div id="t31" class="overlay"></div></a></div>
+                <div class="box" id="b32"><a id="a32"><img id="i32"><div id="t32" class="overlay"></div></a></div>
+                <div class="box" id="b33"><a id="a33"><img id="i33"><div id="t33" class="overlay"></div></a></div>
+                <div class="box" id="b34"><a id="a34"><img id="i34"><div id="t34" class="overlay"></div></a></div>
+                <div class="box" id="b35"><a id="a35"><img id="i35"><div id="t35" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b36"><a id="a36"><img id="i36"><div id="t36" class="overlay"></div></a></div>
+                <div class="box" id="b37"><a id="a37"><img id="i37"><div id="t37" class="overlay"></div></a></div>
+                <div class="box" id="b38"><a id="a38"><img id="i38"><div id="t38" class="overlay"></div></a></div>
+                <div class="box" id="b39"><a id="a39"><img id="i39"><div id="t39" class="overlay"></div></a></div>
+                <div class="box" id="b40"><a id="a40"><img id="i40"><div id="t40" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b41"><a id="a41"><img id="i41"><div id="t41" class="overlay"></div></a></div>
+                <div class="box" id="b42"><a id="a42"><img id="i42"><div id="t42" class="overlay"></div></a></div>
+                <div class="box" id="b43"><a id="a43"><img id="i43"><div id="t43" class="overlay"></div></a></div>
+                <div class="box" id="b44"><a id="a44"><img id="i44"><div id="t44" class="overlay"></div></a></div>
+                <div class="box" id="b45"><a id="a45"><img id="i45"><div id="t45" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b46"><a id="a46"><img id="i46"><div id="t46" class="overlay"></div></a></div>
+                <div class="box" id="b47"><a id="a47"><img id="i47"><div id="t47" class="overlay"></div></a></div>
+                <div class="box" id="b48"><a id="a48"><img id="i48"><div id="t48" class="overlay"></div></a></div>
+                <div class="box" id="b49"><a id="a49"><img id="i49"><div id="t49" class="overlay"></div></a></div>
+                <div class="box" id="b50"><a id="a50"><img id="i50"><div id="t50" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b51"><a id="a51"><img id="i51"><div id="t51" class="overlay"></div></a></div>
+                <div class="box" id="b52"><a id="a52"><img id="i52"><div id="t52" class="overlay"></div></a></div>
+                <div class="box" id="b53"><a id="a53"><img id="i53"><div id="t53" class="overlay"></div></a></div>
+                <div class="box" id="b54"><a id="a54"><img id="i54"><div id="t54" class="overlay"></div></a></div>
+                <div class="box" id="b55"><a id="a55"><img id="i55"><div id="t55" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b56"><a id="a56"><img id="i56"><div id="t56" class="overlay"></div></a></div>
+                <div class="box" id="b57"><a id="a57"><img id="i57"><div id="t57" class="overlay"></div></a></div>
+                <div class="box" id="b58"><a id="a58"><img id="i58"><div id="t58" class="overlay"></div></a></div>
+                <div class="box" id="b59"><a id="a59"><img id="i59"><div id="t59" class="overlay"></div></a></div>
+                <div class="box" id="b60"><a id="a60"><img id="i60"><div id="t60" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b61"><a id="a61"><img id="i61"><div id="t61" class="overlay"></div></a></div>
+                <div class="box" id="b62"><a id="a62"><img id="i62"><div id="t62" class="overlay"></div></a></div>
+                <div class="box" id="b63"><a id="a63"><img id="i63"><div id="t63" class="overlay"></div></a></div>
+                <div class="box" id="b64"><a id="a64"><img id="i64"><div id="t64" class="overlay"></div></a></div>
+                <div class="box" id="b65"><a id="a65"><img id="i65"><div id="t65" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b66"><a id="a66"><img id="i66"><div id="t66" class="overlay"></div></a></div>
+                <div class="box" id="b67"><a id="a67"><img id="i67"><div id="t67" class="overlay"></div></a></div>
+                <div class="box" id="b68"><a id="a68"><img id="i68"><div id="t68" class="overlay"></div></a></div>
+                <div class="box" id="b69"><a id="a69"><img id="i69"><div id="t69" class="overlay"></div></a></div>
+                <div class="box" id="b70"><a id="a70"><img id="i70"><div id="t70" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b71"><a id="a71"><img id="i71"><div id="t71" class="overlay"></div></a></div>
+                <div class="box" id="b72"><a id="a72"><img id="i72"><div id="t72" class="overlay"></div></a></div>
+                <div class="box" id="b73"><a id="a73"><img id="i73"><div id="t73" class="overlay"></div></a></div>
+                <div class="box" id="b74"><a id="a74"><img id="i74"><div id="t74" class="overlay"></div></a></div>
+                <div class="box" id="b75"><a id="a75"><img id="i75"><div id="t75" class="overlay"></div></a></div>
+              </div>
+        <div id="row">
+                <div class="box" id="b76"><a id="a76"><img id="i76"><div id="t76" class="overlay"></div></a></div>
+                <div class="box" id="b77"><a id="a77"><img id="i77"><div id="t77" class="overlay"></div></a></div>
+                <div class="box" id="b78"><a id="a78"><img id="i78"><div id="t78" class="overlay"></div></a></div>
+              </div>
+    </center>
+<script src="js/main.js"></script>
+<script src="js/slideshow.js"></script>
+<script src="js/menu.js"></script>
+</html>
