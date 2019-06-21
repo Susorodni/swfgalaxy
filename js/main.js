@@ -4,7 +4,7 @@ var list = ["btd5", "2048", "billiards", 'chibi knight', 'clicker heroes', 'drea
 var numOfRows = list.length/5;
 
 
-var div = 0;
+var divCounter = 0;
 
 for(var i = 0; i < list.length; i++){
   var box = document.createElement("div");
@@ -26,15 +26,16 @@ for(var i = 0; i < list.length; i++){
   link.appendChild(image);
   link.appendChild(overlayDiv);
 
-
-
   box.setAttribute('class', 'box');
   box.setAttribute('style', "display:block");
   box.appendChild(link);
+if(i % 5 == 1){
+  divCounter++;
 
+}
 
-
-  document.getElementById('center').appendChild(box);
+var div = divCounter.toString()
+  document.getElementById(div).appendChild(box);
 
 
 }
