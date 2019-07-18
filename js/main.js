@@ -29,7 +29,7 @@ for(var i = 0; i < list.length; i++){
   box.setAttribute('class', 'box');
   box.setAttribute('style', "display:block");
   box.appendChild(link);
-if(i % 5 == 1){
+if(i % 5 == 1 && i !== 1){
   divCounter++;
 
 }
