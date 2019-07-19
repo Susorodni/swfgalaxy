@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:ng="ignored" xmlns:app="ignored" xmlns:ui="ignored" xmlns:md="ignored">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta property="fb:app_id" content="850303518324531" />
+
+    <link rel="icon" type="image/png" href="icon.png" />
+
+    <title>Screeps</title>
+
+    <link href='vendor/fonts/roboto.css' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' type='text/css' href='vendor/fontawesome/css/font-awesome.css?bust=1561537544056'>
+    <link rel='stylesheet' type='text/css' href='vendor/jsoneditor/jsoneditor.min.css?bust=1561537544056'>
+    <link rel='stylesheet' type='text/css' href='vendor/material-design/css/icons-material-design.css?bust=1561537544056'>
+    <link rel='stylesheet' type='text/css' href='vendor/spectrum/spectrum.css?bust=1561537544056'>
+    <link rel="stylesheet" href="vendor/prism.css?bust=1561537544056">
+    <link rel="stylesheet" href="vendor/angular-material/angular-material.css?bust=1561537544056">
+    <link rel="stylesheet" href="app.css?bust=1561537544056">
+    <link rel="stylesheet" href="app2/styles.css?bust=1561537544056">
+
+    <script>window.global = undefined;</script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-56656789-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+    <!-- start Mixpanel -->
+    <script type="text/javascript">(function(f,b){if(!b.__SV){var a,e,i,g;window.mixpanel=b;b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.set_once people.increment people.append people.track_charge people.clear_charges people.delete_user".split(" ");
+        for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2;a=f.createElement("script");a.type="text/javascript";a.async=!0;a.src="https://cdn.mxpnl.com/libs/mixpanel-2.2.min.js";e=f.getElementsByTagName("script")[0];e.parentNode.insertBefore(a,e)}})(document,window.mixpanel||[]);
+    mixpanel.init("647fa4fef822c1d4e9fa7b25812599cf");</script>
+    <!-- end Mixpanel -->
+
+    <!-- Facebook Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+            n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+                document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '1034691543257678');
+        fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+                   src="https://www.facebook.com/tr?id=1034691543257678&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+
+    <!-- Xsolla Network -->
+    <script>
+        if(!window.nw) {
+            (function (i, s, o, g, r, a, m) {
+                i['XsollaNetworkTrackingObject'] = r;
+                i[r] = i[r] || function () {
+                            (i[r].q = i[r].q || []).push(arguments)
+                        }, i[r].l = 1 * new Date();
+                a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m)
+            })(window, document, 'script', 'https://cdn.xsolla.net/network/xtracking-0.1.js', 'xnt');
+            try {
+                xnt("init", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2VUeXBlIjoiY2xpZW50Iiwic291cmNlIjoicHVibGlzaGVySWRfMjQ5X3Byb2plY3RJZF8xNTk4MV9nYW1lX2NsaWVudCIsImlhdCI6MTQ5OTA4NjAwMH0.VuxDHwveHn8EC9kDKvfkC3K3D28tWCkg9D7ZdP-UyYg");
+                xnt("sendEvent", "game_client_visit");
+            }
+            catch(e) {
+                console.error(e);
+            }
+        }
+    </script>
+    <!-- End Xsolla Network -->
+</head>
+<body>
+
+<script>
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '850303518324531',
+            xfbml      : true,
+            version    : 'v2.4'
+        });
+
+        FB.Event.subscribe('edge.create', function(url, html_element) {
+            ga('send','event','Facebook','Like');
+            mixpanel.track('Facebook Like');
+            localStorage.setItem('facebookLiked', "1");
+        });
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "https://connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<canvas id="force-refresh" ng-if="nw" app-show-when-steam-overlay width="1" height="1"></canvas>
+
+<div class="top-content" app:view-segment="0"></div>
+<app2-router-outlet>
+    <div class="init-loading">
+        <main id='main'></main>
+    </div>
+</app2-router-outlet>
+<script>
+    const img = document.createElement('img');
+    img.src = window.nw ? 'loader-static.svg' : 'loader-animated.svg';
+    img.width = 562;
+    img.height = 86;
+    const main = document.getElementById('main');
+    main.append(img);
+</script>
+
+<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/sockjs/0.3.4/sockjs.min.js"></script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>-->
+
+<script>
+    function onRecaptchaLoad() {
+        var injector = angular.element(document.body).injector();
+        injector.invoke(['$rootScope', 'Recaptcha', function($rootScope, Recaptcha) {
+            Recaptcha.loaded = true;
+            $rootScope.$digest();
+        }]);
+    }
+</script>
+
+<script src="https://www.google.com/recaptcha/api.js?onload=onRecaptchaLoad&render=explicit" async defer></script>
+
+<script type="text/javascript" src=vendor/lodash/lodash.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/jquery/dist/jquery.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/spectrum/spectrum.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/angular/angular.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/ace.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/angular-animate/angular-animate.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/angular-material/angular-material.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/angular-messages/angular-messages.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/angular-route-segment/build/angular-route-segment.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/angular-route/angular-route.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/angular-spectrum-colorpicker/dist/angular-spectrum-colorpicker.min.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/angular-ui-ace/ui-ace.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/renderer/renderer.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/ace_highlight_rules.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/ace/ext-searchbox.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/ext-tern.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/hammerjs/hammer.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/javascript.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/jsoneditor/jsoneditor.min.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/marked.min.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/mode-json.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/pako/dist/pako.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/prism.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/renderer/metadata/renderer-metadata.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/sockjs/sockjs.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/theme-tomorrow_night.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/ui-bootstrap-custom-2.5.0.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/ui-bootstrap-custom-tpls-2.5.0.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/worker-javascript.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/worker-json.js?bust=1561537544056"></script>
+<script type="text/javascript" src=vendor/worker-tern.js?bust=1561537544056"></script>
+
+<script type="text/javascript">window.RENDERER_RESOURCES = {"berserk": "vendor/renderer/metadata/berserk.svg?bust=1561537544056","bodyPartBar": "vendor/renderer/metadata/bodyPartBar.svg?bust=1561537544056","commander-lvl0": "vendor/renderer/metadata/commander-lvl0.svg?bust=1561537544056","commander-lvl1": "vendor/renderer/metadata/commander-lvl1.svg?bust=1561537544056","commander-lvl2": "vendor/renderer/metadata/commander-lvl2.svg?bust=1561537544056","commander-lvl3": "vendor/renderer/metadata/commander-lvl3.svg?bust=1561537544056","commander-lvl4": "vendor/renderer/metadata/commander-lvl4.svg?bust=1561537544056","commander": "vendor/renderer/metadata/commander.svg?bust=1561537544056","constructedWall": "vendor/renderer/metadata/constructedWall.svg?bust=1561537544056","controller-level": "vendor/renderer/metadata/controller-level.svg?bust=1561537544056","controller": "vendor/renderer/metadata/controller.svg?bust=1561537544056","cover": "vendor/renderer/metadata/cover.svg?bust=1561537544056","creep-mask": "vendor/renderer/metadata/creep-mask.png?bust=1561537544056","creep-npc": "vendor/renderer/metadata/creep-npc.svg?bust=1561537544056","defend": "vendor/renderer/metadata/defend.svg?bust=1561537544056","demolish": "vendor/renderer/metadata/demolish.svg?bust=1561537544056","disable": "vendor/renderer/metadata/disable.svg?bust=1561537544056","disrupt-source": "vendor/renderer/metadata/disrupt-source.svg?bust=1561537544056","disrupt-spawn": "vendor/renderer/metadata/disrupt-spawn.svg?bust=1561537544056","disrupt-terminal": "vendor/renderer/metadata/disrupt-terminal.svg?bust=1561537544056","disrupt-tower": "vendor/renderer/metadata/disrupt-tower.svg?bust=1561537544056","drain-extension": "vendor/renderer/metadata/drain-extension.svg?bust=1561537544056","encourage": "vendor/renderer/metadata/encourage.svg?bust=1561537544056","executor-lvl0": "vendor/renderer/metadata/executor-lvl0.svg?bust=1561537544056","executor-lvl1": "vendor/renderer/metadata/executor-lvl1.svg?bust=1561537544056","executor-lvl2": "vendor/renderer/metadata/executor-lvl2.svg?bust=1561537544056","executor-lvl3": "vendor/renderer/metadata/executor-lvl3.svg?bust=1561537544056","executor-lvl4": "vendor/renderer/metadata/executor-lvl4.svg?bust=1561537544056","executor": "vendor/renderer/metadata/executor.svg?bust=1561537544056","exhaust": "vendor/renderer/metadata/exhaust.svg?bust=1561537544056","exit-bottom": "vendor/renderer/metadata/exit-bottom.svg?bust=1561537544056","exit-left": "vendor/renderer/metadata/exit-left.svg?bust=1561537544056","exit-right": "vendor/renderer/metadata/exit-right.svg?bust=1561537544056","exit-top": "vendor/renderer/metadata/exit-top.svg?bust=1561537544056","extension-border100": "vendor/renderer/metadata/extension-border100.svg?bust=1561537544056","extension-border200": "vendor/renderer/metadata/extension-border200.svg?bust=1561537544056","extension-border50": "vendor/renderer/metadata/extension-border50.svg?bust=1561537544056","extension": "vendor/renderer/metadata/extension.svg?bust=1561537544056","extractor": "vendor/renderer/metadata/extractor.svg?bust=1561537544056","flag-secondary": "vendor/renderer/metadata/flag-secondary.svg?bust=1561537544056","flag": "vendor/renderer/metadata/flag.svg?bust=1561537544056","flare1": "vendor/renderer/metadata/flare1.png?bust=1561537544056","flare2": "vendor/renderer/metadata/flare2.png?bust=1561537544056","flare3": "vendor/renderer/metadata/flare3.png?bust=1561537544056","flare4": "vendor/renderer/metadata/flare4.png?bust=1561537544056","flare5": "vendor/renderer/metadata/flare5.png?bust=1561537544056","flare6": "vendor/renderer/metadata/flare6.png?bust=1561537544056","flare7": "vendor/renderer/metadata/flare7.png?bust=1561537544056","fortify": "vendor/renderer/metadata/fortify.svg?bust=1561537544056","generate-ops": "vendor/renderer/metadata/generate-ops.svg?bust=1561537544056","glow": "vendor/renderer/metadata/glow.png?bust=1561537544056","ground-mask": "vendor/renderer/metadata/ground-mask.png?bust=1561537544056","ground": "vendor/renderer/metadata/ground.png?bust=1561537544056","harvest-energy": "vendor/renderer/metadata/harvest-energy.svg?bust=1561537544056","harvest-mineral": "vendor/renderer/metadata/harvest-mineral.svg?bust=1561537544056","kill": "vendor/renderer/metadata/kill.svg?bust=1561537544056","lab-highlight": "vendor/renderer/metadata/lab-highlight.svg?bust=1561537544056","lab-mineral": "vendor/renderer/metadata/lab-mineral.svg?bust=1561537544056","lab": "vendor/renderer/metadata/lab.svg?bust=1561537544056","link-border": "vendor/renderer/metadata/link-border.svg?bust=1561537544056","link-energy": "vendor/renderer/metadata/link-energy.svg?bust=1561537544056","link": "vendor/renderer/metadata/link.svg?bust=1561537544056","mass-repair": "vendor/renderer/metadata/mass-repair.svg?bust=1561537544056","noise1": "vendor/renderer/metadata/noise1.png?bust=1561537544056","noise2": "vendor/renderer/metadata/noise2.png?bust=1561537544056","nuke": "vendor/renderer/metadata/nuke.svg?bust=1561537544056","nuker-border": "vendor/renderer/metadata/nuker-border.svg?bust=1561537544056","nuker": "vendor/renderer/metadata/nuker.svg?bust=1561537544056","operate-controller": "vendor/renderer/metadata/operate-controller.svg?bust=1561537544056","operate-extension": "vendor/renderer/metadata/operate-extension.svg?bust=1561537544056","operate-lab": "vendor/renderer/metadata/operate-lab.svg?bust=1561537544056","operate-observer": "vendor/renderer/metadata/operate-observer.svg?bust=1561537544056","operate-power": "vendor/renderer/metadata/operate-power.svg?bust=1561537544056","operate-spawn": "vendor/renderer/metadata/operate-spawn.svg?bust=1561537544056","operate-storage": "vendor/renderer/metadata/operate-storage.svg?bust=1561537544056","operate-terminal": "vendor/renderer/metadata/operate-terminal.svg?bust=1561537544056","operate-tower": "vendor/renderer/metadata/operate-tower.svg?bust=1561537544056","operator-lvl0": "vendor/renderer/metadata/operator-lvl0.svg?bust=1561537544056","operator-lvl1": "vendor/renderer/metadata/operator-lvl1.svg?bust=1561537544056","operator-lvl2": "vendor/renderer/metadata/operator-lvl2.svg?bust=1561537544056","operator-lvl3": "vendor/renderer/metadata/operator-lvl3.svg?bust=1561537544056","operator-lvl4": "vendor/renderer/metadata/operator-lvl4.svg?bust=1561537544056","operator": "vendor/renderer/metadata/operator.svg?bust=1561537544056","powerBank": "vendor/renderer/metadata/powerBank.svg?bust=1561537544056","punch": "vendor/renderer/metadata/punch.svg?bust=1561537544056","rampart": "vendor/renderer/metadata/rampart.svg?bust=1561537544056","rectangle": "vendor/renderer/metadata/rectangle.svg?bust=1561537544056","reflect": "vendor/renderer/metadata/reflect.svg?bust=1561537544056","regen-mineral": "vendor/renderer/metadata/regen-mineral.svg?bust=1561537544056","regen-source": "vendor/renderer/metadata/regen-source.svg?bust=1561537544056","reinforce": "vendor/renderer/metadata/reinforce.svg?bust=1561537544056","remote-transfer": "vendor/renderer/metadata/remote-transfer.svg?bust=1561537544056","renew": "vendor/renderer/metadata/renew.svg?bust=1561537544056","shield": "vendor/renderer/metadata/shield.svg?bust=1561537544056","sight": "vendor/renderer/metadata/sight.svg?bust=1561537544056","snipe": "vendor/renderer/metadata/snipe.svg?bust=1561537544056","storage-border": "vendor/renderer/metadata/storage-border.svg?bust=1561537544056","storage": "vendor/renderer/metadata/storage.svg?bust=1561537544056","summon": "vendor/renderer/metadata/summon.svg?bust=1561537544056","tbd": "vendor/renderer/metadata/tbd.svg?bust=1561537544056","terminal-arrows": "vendor/renderer/metadata/terminal-arrows.svg?bust=1561537544056","terminal-border": "vendor/renderer/metadata/terminal-border.svg?bust=1561537544056","terminal-highlight": "vendor/renderer/metadata/terminal-highlight.svg?bust=1561537544056","terminal": "vendor/renderer/metadata/terminal.svg?bust=1561537544056","tombstone-border": "vendor/renderer/metadata/tombstone-border.svg?bust=1561537544056","tombstone-resource": "vendor/renderer/metadata/tombstone-resource.svg?bust=1561537544056","tombstone": "vendor/renderer/metadata/tombstone.svg?bust=1561537544056","tough": "vendor/renderer/metadata/tough.svg?bust=1561537544056","tower-base": "vendor/renderer/metadata/tower-base.svg?bust=1561537544056","tower-rotatable": "vendor/renderer/metadata/tower-rotatable.svg?bust=1561537544056"};</script>
+<script src="constants.js?bust=1561537544056"></script>
+<script src="engine.js?bust=1561537544056"></script>
+
+<script>
+    function ngInject(f) { return f }
+
+    _.mixin({ 'capitalize': function (string) {
+        if (typeof string !== "string") {
+            return undefined;
+        }
+        return string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
+    } });
+
+    window.requestAnimFrame = (function(){
+        return  window.requestAnimationFrame       ||
+                window.webkitRequestAnimationFrame ||
+                window.mozRequestAnimationFrame    ||
+                function( callback ){
+                    window.setTimeout(callback, 1000 / 60);
+                };
+    })();
+
+    __Zone_disable_requestAnimationFrame = true;
+</script>
+
+<script>window.twttr = (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0],
+            t = window.twttr || {};
+    if (d.getElementById(id)) return t;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "https://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+
+    t._e = [];
+    t.ready = function(f) {
+        t._e.push(f);
+    };
+
+    return t;
+}(document, "script", "twitter-wjs"));</script>
+
+<script type="text/javascript" src="build.min.js?bust=1561537544056"></script>
+
+                    <script type="text/javascript" src="app2/runtime.js?bust=1561537544056"></script>
+                    <script type="text/javascript" src="app2/polyfills.js?bust=1561537544056"></script>
+                    <script type="text/javascript" src="app2/main.js?bust=1561537544056"></script>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250"><defs><style>
+	.cls-1{fill:#2c467e;}.cls-2,.cls-5,.cls-6,.cls-7{fill:none;}.cls-2{stroke:#8f9fc4;}.cls-2,.cls-5,.cls-6{stroke-miterlimit:10;}.cls-3{fill:#8f9fc4;}.cls-4{fill:#4a66a4;}.cls-5{stroke:#2c467e;}.cls-6{stroke:#909fc4;opacity:0.5;isolation:isolate;}
+	
+.arrow-1{
+	transform-origin: 58% 29%;
+	animation: arrow 3s ease-in-out 0s infinite;
+}
+.arrow-2{
+	transform-origin: 72% 66%;
+	animation: arrow 5s ease-in-out 0s infinite;
+}
+.arrow-3{
+	transform-origin: 58% 78%;
+	animation: arrow 3s ease-in-out 0s infinite;
+}
+.arrow-blue{
+	transform-origin: 55% 52%;
+	animation: arrow 2.5s ease-in-out 0s infinite;
+}
+@keyframes arrow{
+	
+	30%{transform: rotate(0.8deg)}
+	60%{transform: rotate(-0.8deg)}
+}
+
+
+.wraper{
+	transform-origin: center;
+	animation: wraper 4s ease-in-out 0s infinite;
+}
+@keyframes wraper{
+	30%{transform: rotate(0.3deg) rotateY(-6deg)}
+	70%{transform: rotate(0.3deg) rotateY(6deg)}
+}
+.target{
+	transform-origin: center;
+	animation: target 4s ease-in-out 0s infinite;
+}
+@keyframes target{
+	50%{transform: rotate(0.3deg) rotateY(-6deg) scale(1.02)}
+}
+.bg{
+	transform-origin: 55% 52%;
+	animation: bg 4s ease-in-out 0s infinite;
+}
+@keyframes bg{
+	30%{transform: translate(1.3px)}
+	60%{transform: translate(-1.3px)}
+}
+	
+	</style></defs>
+	<title>Training Mode</title>
+	
+<path class="cls-1" d="M105.66,46.62a2.09,2.09,0,1,1,2.09,2.08h0A2.09,2.09,0,0,1,105.66,46.62Zm1.19,0a.88.88,0,1,0,.88-.88A.88.88,0,0,0,106.85,46.62Z"/>
+<path class="cls-1" d="M180.63,175.58a2.09,2.09,0,1,1,2.09,2.08h0A2.09,2.09,0,0,1,180.63,175.58Zm1.19,0a.88.88,0,1,0,.88-.88.88.88,0,0,0-.88.88h0Z"/>
+<polygon class="cls-1" points="21.67 109.25 24.36 106.57 21.67 103.9 18.98 106.57 21.67 109.25"/>
+<polygon class="cls-1" points="213.32 171.81 215.28 173.76 217.24 171.81 215.28 169.87 213.32 171.81"/>
+<path class="cls-1" d="M221.37,48.28h4.72V53h-4.69Zm3.53,1.18h-2.35v2.35h2.31Z"/>
+<path class="cls-1" d="M143.27,218h4.66v4.64h-4.66Zm3.46,1.18h-2.27v2.26h2.27Z"/>
+
+<g class="bg">
+	<ellipse class="cls-1" cx="134.62" cy="206.17" rx="1.12" ry="1.11"/>
+	<path class="cls-1" d="M205.59,134.54a2.09,2.09,0,1,1,2.09,2.08h0A2.09,2.09,0,0,1,205.59,134.54Zm1.19,0a.88.88,0,1,0,.88-.88.88.88,0,0,0-.88.88h0Z"/>
+	<path class="cls-1" d="M30.35,17.89A1.64,1.64,0,1,1,32,19.53h0a1.63,1.63,0,0,1-1.64-1.63Zm1.19,0a.45.45,0,1,0,.46-.44h0a.44.44,0,0,0-.49.44Z"/>
+	<ellipse class="cls-1" cx="47.29" cy="81.48" rx="1.19" ry="1.18"/>
+	<ellipse class="cls-1" cx="182.51" cy="71.46" rx="1.38" ry="1.37"/>
+	<path class="cls-1" d="M32.41,143.12A1.93,1.93,0,1,1,34.36,145h0A1.93,1.93,0,0,1,32.41,143.12Zm1.19,0a.74.74,0,1,0,.74-.74h0A.74.74,0,0,0,33.61,143.12Z"/>
+	<ellipse class="cls-1" cx="45.95" cy="193.45" rx="1.34" ry="1.33"/>
+	<circle class="cls-1" cx="182.51" cy="214.29" r="0.67"/>
+</g>
+<g class="wraper">
+	<g class="arrow-1">
+		<line class="cls-2" x1="130.57" y1="68.67" x2="186.44" y2="40.9"/>
+		<polyline class="cls-2" points="185.46 47.45 179.08 44.54 180.53 37.67"/>
+		<polyline class="cls-2" points="189.13 45.63 182.76 42.72 184.2 35.86"/>
+		<polyline class="cls-2" points="192.81 43.81 186.44 40.9 187.88 34.04"/>
+		<polyline class="cls-2" points="176.24 39.85 174.79 46.7 181.16 49.62"/>
+		<circle class="cls-3" cx="130.56" cy="68.66" r="2.59" transform="translate(0.12 137.55) rotate(-55.58)"/>
+	</g>	
+	<g class="arrow-2">
+		<line class="cls-2" x1="161.35" y1="153.28" x2="223.72" y2="152.14"/>
+		<polyline class="cls-2" points="220.04 157.63 215.53 152.27 219.77 146.69"/>
+		<polyline class="cls-2" points="224.14 157.57 219.63 152.21 223.87 146.62"/>
+		<polyline class="cls-2" points="228.24 157.5 223.72 152.13 227.97 146.55"/>
+		<polyline class="cls-2" points="214.96 146.81 210.72 152.38 215.22 157.75"/>
+		<circle class="cls-3" cx="161.35" cy="153.3" r="2.59" transform="translate(-55.21 101.97) rotate(-30.2)"/>
+	</g>
+	<g class="arrow-3">
+		<line class="cls-2" x1="136.96" y1="179.98" x2="186.13" y2="191.22"/>
+		<polyline class="cls-2" points="182.17 194.82 179.67 189.73 184.09 186.18"/>
+		<polyline class="cls-2" points="185.4 195.56 182.91 190.48 187.31 186.93"/>
+		<polyline class="cls-2" points="188.63 196.31 186.13 191.22 190.55 187.67"/>
+		<polyline class="cls-2" points="180.29 185.34 175.87 188.89 178.37 193.98"/>
+		<circle class="cls-3" cx="136.95" cy="179.99" r="2.09" transform="translate(-44.94 45.58) rotate(-16.27)"/>
+	</g>
+	<g class="arrow-blue">
+		<path class="cls-4" d="M128.83,124.45a4.42,4.42,0,1,1-.73-2.54l6-1.77L133,116.22A11.86,11.86,0,1,0,135.95,127l-1.17-4.28Z"/>
+		<path class="cls-1" d="M133.23,123.93a9.57,9.57,0,0,0-3.87,8c.09,2,.78,3.38,3.15,1.14a11.8,11.8,0,0,0,3.44-6l-1.17-4.28Z"/>
+		<circle class="cls-1" cx="124.38" cy="124.36" r="3.15" transform="translate(-51.51 124.38) rotate(-45)"/>
+		<polyline class="cls-5" points="203.04 108.28 196.07 103.37 199.32 95.5"/>
+		<polyline class="cls-5" points="207.83 106.92 200.87 102.02 204.12 94.15"/>
+		<polyline class="cls-5" points="212.63 105.57 205.66 100.67 208.92 92.8"/>
+		<polyline class="cls-5" points="193.71 97.14 190.46 105.01 197.42 109.9"/>
+		<line class="cls-5" x1="124.39" y1="124.37" x2="205.67" y2="100.67"/>
+	</g>
+	<g class="target">
+		<path class="cls-6" d="M180.72,145.14A60.23,60.23,0,0,0,183,112.8"/>
+		<path class="cls-6" d="M152.27,177.83A60.08,60.08,0,0,0,170,163.55"/>
+		<path class="cls-6" d="M116.18,65.62a59.85,59.85,0,0,0,16.08,118.6"/>
+		<path class="cls-6" d="M164.71,80.69A59.85,59.85,0,0,0,146,69.09"/>
+		<path class="cls-6" d="M179.89,102.51a59.74,59.74,0,0,0-7.17-12.88"/>
+		<path class="cls-6" d="M167.65,143.42a47.3,47.3,0,0,0,3-26.9"/>
+		<path class="cls-6" d="M153.86,88.23A47,47,0,1,0,150,164.35"/>
+		<path class="cls-6" d="M168.18,107.64a47,47,0,0,0-7.29-12.44"/>
+		<line class="cls-6" x1="124.39" y1="161.01" x2="124.39" y2="175.88"/>
+		<line class="cls-6" x1="124.39" y1="77.1" x2="124.39" y2="88.7"/>
+		<line class="cls-6" x1="188.35" y1="124.9" x2="194.06" y2="124.9"/>
+		<line class="cls-6" x1="159.86" y1="124.9" x2="176.63" y2="124.9"/>
+		<line class="cls-6" x1="72.39" y1="124.9" x2="88.09" y2="124.9"/>
+		<line class="cls-6" x1="54.71" y1="124.9" x2="59.4" y2="124.9"/>
+		<path class="cls-6" d="M155.22,118.19a31.53,31.53,0,1,1-2-6.18"/>
+	</g>
+</g>
+</svg>
